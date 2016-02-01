@@ -536,12 +536,14 @@ section.container {
   text-align: center
 }
 .copyright p, .copyright a {
-  color: #aaa;
-  font-size: 14px;
+  color: rgba(68, 68, 68, .5);
+  font-size: 16px;
   font-weight: 100
+  margin-top: 28px;
+
 }
 .copyright a:hover {
-  color: #888
+  color: rgba(68, 68, 68, 1);
 }
 
 .featureblock {
