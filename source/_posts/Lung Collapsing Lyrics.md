@@ -1,5 +1,5 @@
 ---
-title: Lung Collapsing Lyrics中的韵脚分析
+title: Lung Collapsing Lyrics 中的韵脚分析
 ---
 ![Lung Coallpsing](http://7xqdw6.com1.z0.glb.clouddn.com/Lung%20Coallapsing.png)
 

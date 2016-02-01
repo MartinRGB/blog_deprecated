@@ -282,7 +282,7 @@ header .nav-list-item a {
 .post-block .post-title {
   margin: 0.65em 0 -20px 0;
   color: #444444;
-  font-size: 30px;
+  font-size: 32px;
 }
 .post-block .post-time {
   color: rgba(68, 68, 68, 0.8);
@@ -293,33 +293,15 @@ header .nav-list-item a {
   position: relative;
   margin: 1em 0
 }
-.post-content h2:before, .post-content h3:before, .post-content h4:before, .post-content h5:before, .post-content h6:before {
-  content: "#";
-  color: #42b983;
-  position: absolute;
-  left: -0.7em;
-  top: -4px;
-  font-size: 1.2em;
-  font-weight: bold
-}
-.post-content h2 {
-  font-size: 26px
+
+.post-content h2, .post-content h3 {
+  font-size: 28px
 }
 
-.post-content h3 {
-  font-size: 24px
-}
-
-.post-content h4 {
+.post-content h4, .post-content h5, .post-content h6 {
   font-size: 22px
 }
 
-.post-content h5 {
-  font-size: 20px
-}
-.post-content h6 {
-  font-size: 18px
-}
 .post-content a {
   color: #42b983
 }
