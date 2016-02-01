@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: martinrgb.com/blog
+url: http://www.martinrgb.com/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,4 +68,7 @@ theme: apollo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:Martinrgb/blog.git
+  branch: gh-pages
+  message: "Site updated :)"
