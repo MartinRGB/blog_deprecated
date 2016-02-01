@@ -463,6 +463,12 @@ pre .deletion {
 pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml .javascript, pre .xml .vbscript, pre .xml .css, pre .xml .cdata {
   opacity: 0.5
 }
+.postpage {
+  width: 100%;
+  height: 40px;
+  margin: 52px 0;
+  text-align: center
+}
 .paginator {
   width: 73.6%;
   margin: 52px 0;
@@ -472,6 +478,7 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
   display: inline-block;
   float: left;
   margin-left: 20px;
+  z-index: 2;
 }
 
 .paginator .prev::before{
@@ -487,6 +494,7 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
   display: inline-block;
   float: right;
   margin-right: 20px;
+  z-index: 2;
 }
 
 .paginator .next::after{
@@ -501,7 +509,19 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
 .paginator .prev:hover, .paginator .next:hover {
 }
 .ds-thread, #disqus_thread {
-  margin-bottom: 2em
+     width: 73.6%;
+     margin-bottom: -75px;
+     position: relative;
+}
+
+#disqus_thread:after {
+     content: "";
+     display: block;
+     height: 50px;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     background: white;
 }
 
 .divider {
@@ -531,11 +551,14 @@ section.container {
   }
 }
 .copyright {
+  z-index: 10;
   margin: 132px 0;
   border-top: 1px solid rgba(68, 68, 68, .15);
   text-align: center
+
 }
 .copyright p, .copyright a {
+  z-index: 10;
   color: rgba(68, 68, 68, .5);
   font-size: 16px;
   font-weight: 100
@@ -543,6 +566,7 @@ section.container {
 
 }
 .copyright a:hover {
+  z-index: 10;
   color: rgba(68, 68, 68, 1);
 }
 
