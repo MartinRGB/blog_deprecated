@@ -1,6 +1,8 @@
 
 ---
 title: 译： 散落于群星之河
+tags:
+- 译文
 ---
 
 ![Galaxy](http://7xqdw6.com1.z0.glb.clouddn.com/Galaxy.png)

@@ -11,13 +11,11 @@ body {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block
 }
-
-footer{
-    position: relative;
-    float: left;
-    width: 950px;
+footer {
+  position: relative;
+  float: left;
+  width: 950px;
 }
-
 article.post-block {
   display: block
 }
@@ -48,10 +46,9 @@ dfn {
   font-style: italic
 }
 h1 {
-  font-size: 28px;
+  font-size: 24px;
   margin: 0.67em 0
 }
-
 mark {
   background: #ff0;
   color: #000
@@ -159,17 +156,14 @@ body {
   line-height: 1.8;
   font-family: "Lato", "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif
 }
-
 @font-face {
-    font-family: 'Lato';
-    src: url('http://7xqdw6.com1.z0.glb.clouddn.com/Lato-Regular.ttf');
+  font-family: 'Lato';
+  src: url('http://7xqdw6.com1.z0.glb.clouddn.com/Lato-Regular.ttf');
 }
 @font-face {
-    font-family: 'Lato-Bold';
-    src: url('http://7xqdw6.com1.z0.glb.clouddn.com/Lato-Bold.ttf');
+  font-family: 'Lato-Bold';
+  src: url('http://7xqdw6.com1.z0.glb.clouddn.com/Lato-Bold.ttf');
 }
-
-
 ul.nav, ul.post-list {
   margin: 0;
   padding: 0;
@@ -179,7 +173,7 @@ a, a:active {
   color: rgba(68, 68, 68, 1);
   text-decoration: none
 }
-a.nav-list-link.active, a.nav-list-link:hover, a.rssfeature:hover,a.archivefeature:hover, a.post-title-link:hover {
+a.nav-list-link.active, a.nav-list-link:hover, a.rssfeature:hover, a.archivefeature:hover, a.tagfeature:hover, a.post-title-link:hover {
   color: rgba(68, 68, 68, 1);
 }
 hr {
@@ -223,7 +217,7 @@ header .logo-link img {
 header .nav-list-item {
   display: inline-block;
   margin-top: 6px;
-  margin-left:35px;
+  margin-left: 35px;
 }
 header .nav-list-item a {
   color: rgba(68, 68, 68, 0.5);
@@ -234,11 +228,7 @@ header .nav-list-item a {
   width: 73.6%;
   float: left;
 }
-
-
-.post-content {
-}
-
+.post-content {}
 .post {
   width: 73.6%;
   float: left;
@@ -246,13 +236,10 @@ header .nav-list-item a {
   padding-top: 31px;
   padding-bottom: 1.2em;
 }
-
-
 .home.post-list .post-list-item {
   padding: 31px 0 55px;
   border-bottom: 1px solid rgba(68, 68, 68, .15);
 }
-
 .home.post-list .post-content h2:before, .home.post-list .post-content h3:before, .home.post-list .post-content h4:before, .home.post-list .post-content h5:before, .home.post-list .post-content h6:before {
   content: ''
 }
@@ -268,7 +255,6 @@ header .nav-list-item a {
   width: 73.6%;
   float: left;
 }
-
 .archive.post-list .post-list-item {
   margin: 10px 0
 }
@@ -282,7 +268,7 @@ header .nav-list-item a {
 .post-block .post-title {
   margin: 0.65em 0 -20px 0;
   color: #444444;
-  font-size: 32px;
+  font-size: 28px;
 }
 .post-block .post-time {
   color: rgba(68, 68, 68, 0.8);
@@ -293,15 +279,12 @@ header .nav-list-item a {
   position: relative;
   margin: 1em 0
 }
-
-.post-content h2, .post-content h3 {
-  font-size: 28px
+.post-content h2 {
+  font-size: 24px
 }
-
-.post-content h4, .post-content h5, .post-content h6 {
-  font-size: 22px
+.post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+  font-size: 20px
 }
-
 .post-content a {
   color: #42b983
 }
@@ -480,8 +463,7 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
   margin-left: 20px;
   z-index: 2;
 }
-
-.paginator .prev::before{
+.paginator .prev::before {
   content: "←";
   color: #42b983;
   position: relative;
@@ -489,15 +471,13 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
   font-size: 1.2em;
   font-weight: bold
 }
-
 .paginator .next {
   display: inline-block;
   float: right;
   margin-right: 20px;
   z-index: 2;
 }
-
-.paginator .next::after{
+.paginator .next::after {
   content: "→";
   color: #42b983;
   position: relative;
@@ -505,42 +485,35 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
   font-size: 1.2em;
   font-weight: bold
 }
-
-.paginator .prev:hover, .paginator .next:hover {
-}
+.paginator .prev:hover, .paginator .next:hover {}
 .ds-thread, #disqus_thread {
-     width: 73.6%;
-     margin-bottom: -75px;
-     position: relative;
+  width: 73.6%;
+  margin-bottom: -75px;
+  position: relative;
 }
-
 #disqus_thread:after {
-     content: "";
-     display: block;
-     height: 50px;
-     width: 100%;
-     position: absolute;
-     bottom: 0;
-     background: white;
+  content: "";
+  display: block;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: white;
 }
-
 .divider {
-    margin: 53px 0 0px;
-    border-bottom: 1px solid rgba(68, 68, 68, .15);
+  margin: 53px 0 0px;
+  border-bottom: 1px solid rgba(68, 68, 68, .15);
 }
-
 section.container {
   width: 950px;
   display: block;
 }
-
 .sidebar {
   width: 26.4%;
   height: 100px;
   display: block;
   float: left;
 }
-
 @media screen and (min-width: 100px) {
   body {
     width: 950px;
@@ -555,43 +528,75 @@ section.container {
   margin: 132px 0;
   border-top: 1px solid rgba(68, 68, 68, .15);
   text-align: center
-
 }
 .copyright p, .copyright a {
   z-index: 10;
   color: rgba(68, 68, 68, .5);
   font-size: 16px;
-  font-weight: 100
-  margin-top: 28px;
-
+  font-weight: 100 margin-top: 28px;
 }
 .copyright a:hover {
   z-index: 10;
   color: rgba(68, 68, 68, 1);
 }
-
 .featureblock {
-    margin-top: 56px;
-    margin-left: 60px;
-    line-height: 2.4em;
+  margin-top: 56px;
+  margin-left: 60px;
+  line-height: 2.4em;
 }
-
 .feature {
   font-size: 26px;
 }
-
-.rssfeature {
+.rssfeature, .archivefeature, .tagfeature {
   color: rgba(68, 68, 68, 0.5);
 }
-
-.archivefeature {
-  color: rgba(68, 68, 68, 0.5);
+a.tagfeature.active {
+  color: rgba(68, 68, 68, 1);
 }
-
 .selectarchivefeature {
   color: rgba(68, 68, 68, 1);
 }
-
 .archive post-list.post-list-item {
   margin: 50px 0;
+}
+.widget {
+  margin-bottom: 30px;
+}
+.tagcloud {
+  margin-top: 40px;
+}
+
+.tagcloud a {
+  line-height: 1.5;
+  padding-left: 0px;
+  padding-right: 40px;
+}
+.widget-title {
+  color: #6E7173;
+  line-height: 2.7;
+  margin-top: 0;
+  font-size: 18px;
+  display: block;
+  font-weight: normal;
+}
+.tags {
+  font-size: 15px;
+  margin-left: -1em;
+  margin-bottom: -27px;
+}
+.eachtag {
+  padding-left: 1em;
+}
+
+.tags .eachtag::before {
+    content:"#";
+    color:#42b983;
+    position:relative;
+    font-size:15px;
+}
+
+.label-title {
+    color: rgba(68, 68, 68, 0.8);
+    font-size: 18px;
+    margin-top: 20.8px;
 }

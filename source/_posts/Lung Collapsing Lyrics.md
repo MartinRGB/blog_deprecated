@@ -1,5 +1,8 @@
 ---
 title: Lung Collapsing Lyrics 中的韵脚分析
+tags:
+- Hip-Hop
+- 译文
 ---
 ![Lung Coallpsing](http://7xqdw6.com1.z0.glb.clouddn.com/Lung%20Coallapsing.png)
 

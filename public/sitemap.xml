@@ -2,33 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.martinrgb.com/blog/2016/02/02/Galaxy/</loc>
-    <lastmod>2016-02-01T16:58:36.000Z</lastmod>
+    <loc>http://www.martinrgb.com/blog/tags/index.html</loc>
+    <lastmod>2016-02-02T04:23:05.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.martinrgb.com/blog/2016/02/02/Blow%20Up%20III/</loc>
-    <lastmod>2016-02-01T16:51:22.000Z</lastmod>
+    <lastmod>2016-02-01T18:34:53.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.martinrgb.com/blog/2016/02/02/Blow%20Up%20II/</loc>
-    <lastmod>2016-02-01T16:48:13.000Z</lastmod>
+    <lastmod>2016-02-01T18:34:48.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.martinrgb.com/blog/2016/02/02/Galaxy/</loc>
+    <lastmod>2016-02-01T18:34:43.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.martinrgb.com/blog/2016/02/02/Lung%20Collapsing%20Lyrics/</loc>
+    <lastmod>2016-02-01T18:33:43.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.martinrgb.com/blog/2016/02/02/Blow%20Up%20I/</loc>
-    <lastmod>2016-02-01T16:46:54.000Z</lastmod>
+    <lastmod>2016-02-01T18:33:06.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.martinrgb.com/blog/2016/02/01/Lung%20Collapsing%20Lyrics/</loc>
-    <lastmod>2016-02-01T13:36:39.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.martinrgb.com/blog/2016/02/01/hello-world/</loc>
-    <lastmod>2016-02-01T13:30:54.000Z</lastmod>
+    <loc>http://www.martinrgb.com/blog/2016/02/02/hello-world/</loc>
+    <lastmod>2016-02-01T18:32:21.000Z</lastmod>
   </url>
   
 </urlset>

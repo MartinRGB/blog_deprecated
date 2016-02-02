@@ -1,6 +1,8 @@
 
 ---
 title: 放大 (三)
+tags:
+- 文字创作
 ---
 
 ![Blow Up](http://7xqdw6.com1.z0.glb.clouddn.com/blowup3.jpg)

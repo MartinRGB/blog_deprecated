@@ -70,3 +70,6 @@ theme: apollo
 deploy:
   type: git
   repo: https://github.com/MartinRGB/blog.git
+
+tag_generator:
+  per_page: 10 ##標籤分類頁面默認10篇文章
