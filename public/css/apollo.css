@@ -247,8 +247,14 @@ header .nav-list-item a {
   list-style: initial
 }
 .home.post-list .read-more {
-  color: #42b983
+  color: rgba(52, 152, 219, 0.8);
+  transition: all 0.4s;
 }
+
+.home.post-list .read-more:hover {
+  color: rgba(52, 152, 219, 1);
+}
+
 .archive.post-list {
   margin: 31px 0 4em 0em;
   font-size: 16px;
@@ -286,12 +292,18 @@ header .nav-list-item a {
   font-size: 20px
 }
 .post-content a {
-  color: #42b983
+  color: rgba(52, 152, 219, 0.8);
+  transition: all 0.4s;
 }
+
+.post-content a:hover {
+  color: rgba(52, 152, 219, 1);
+}
+
 .post-content blockquote {
   margin: 2em 0;
   padding-left: 20px;
-  border-left: 4px solid #42b983
+  border-left: 4px solid rgba(52, 152, 219, 0.8);
 }
 .post-content img {
   display: block;
@@ -429,13 +441,13 @@ pre .tag, pre .tag .title, pre .change, pre .winutils, pre .flow, pre .lisp .tit
   color: #2973b7
 }
 pre .symbol, pre .symbol .string, pre .value, pre .regexp {
-  color: #42b983
+  color: rgba(52, 152, 219, 0.8);
 }
 pre .title {
   color: #83B917
 }
 pre .tag .value, pre .string, pre .subst, pre .haskell .type, pre .preprocessor, pre .ruby .class .parent, pre .built_in, pre .sql .aggregate, pre .django .template_tag, pre .django .variable, pre .smalltalk .class, pre .javadoc, pre .django .filter .argument, pre .smalltalk .localvars, pre .smalltalk .array, pre .attr_selector, pre .pseudo, pre .addition, pre .stream, pre .envvar, pre .apache .tag, pre .apache .cbracket, pre .tex .command, pre .prompt {
-  color: #42b983
+  color: #42B983;
 }
 pre .comment, pre .java .annotation, pre .python .decorator, pre .template_comment, pre .pi, pre .doctype, pre .shebang, pre .apache .sqbracket, pre .tex .formula {
   color: #b3b3b3
@@ -452,40 +464,63 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
   margin: 52px 0;
   text-align: center
 }
+
 .paginator {
   width: 73.6%;
   margin: 52px 0;
-  text-align: center
+  text-align: center;
 }
 .paginator .prev {
   display: inline-block;
   float: left;
   margin-left: 20px;
   z-index: 2;
+  transition: all 0.4s;
 }
 .paginator .prev::before {
   content: "←";
-  color: #42b983;
+  color: rgba(52, 152, 219, 0.8);
   position: relative;
   left: -0.5em;
+  transition: all 0.4s;
   font-size: 1.2em;
   font-weight: bold
 }
+
+.paginator .prev:hover::before {
+  left: -1em;
+}
+
+.paginator .prev:hover {
+  color: rgba(52, 152, 219, 1);
+}
+
+.paginator .next:hover {
+  color: rgba(52, 152, 219, 1);
+}
+
 .paginator .next {
   display: inline-block;
   float: right;
   margin-right: 20px;
   z-index: 2;
+  transition: all 0.4s;
 }
+
 .paginator .next::after {
   content: "→";
-  color: #42b983;
+  color: rgba(52, 152, 219, 0.8);
   position: relative;
   right: -0.5em;
+  transition: all 0.4s;
   font-size: 1.2em;
   font-weight: bold
 }
-.paginator .prev:hover, .paginator .next:hover {}
+
+.paginator .next:hover::after {
+  right: -1em;
+}
+
 .ds-thread, #disqus_thread {
   width: 73.6%;
   margin-bottom: -75px;
@@ -576,8 +611,7 @@ a.tagfeature.active {
 
 .tagcloud a {
   line-height: 1.5;
-  padding-left: 0px;
-  padding-right: 40px;
+  margin-right: 40px;
 }
 .widget-title {
   color: #6E7173;
@@ -593,12 +627,12 @@ a.tagfeature.active {
   margin-bottom: -27px;
 }
 .eachtag {
-  padding-left: 1em;
+  margin-left: 1em;
 }
 
 .tags .eachtag::before {
     content:"#";
-    color:#42b983;
+    color:rgba(52, 152, 219, 0.8);
     position:relative;
     font-size:15px;
 }
