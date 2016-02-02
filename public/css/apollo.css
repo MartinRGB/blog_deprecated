@@ -468,7 +468,7 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
 
 .paginator {
   width: 73.6%;
-  margin: 52px 0;
+  margin: 49px 0;
   text-align: center;
 }
 .paginator .prev {
@@ -581,6 +581,10 @@ section.container {
     display: none;
   }
 
+  header .logo-link img {
+    height: 32px
+  }
+
   .home.post-list, .post {
     width: 100%;
     float: none;
@@ -617,8 +621,8 @@ section.container {
   }
 
   header{
-    padding-top: 73px;
-    padding-bottom: 23px;
+    padding-top: 40px;
+    padding-bottom: -15px;
   }
 
   footer {
