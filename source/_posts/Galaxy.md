@@ -3,9 +3,11 @@
 title: 译： 散落于群星之河
 tags:
 - 译文
+- 影·音·书
+date: "2016/1/31 23:50:25"
 ---
 
-![Galaxy](http://7xqdw6.com1.z0.glb.clouddn.com/Galaxy.png)
+![Galaxy](http://7xqdw6.com1.z0.glb.clouddn.com/galaxy.jpeg)
 
 > 翻译自 Aliette de Bodard 的 "Scattered Along the River of Heaven" 
 

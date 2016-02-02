@@ -1,8 +1,10 @@
 ---
-title: Lung Collapsing Lyrics 中的韵脚分析
+title: 译： Lung Collapsing Lyrics 中的韵脚分析
 tags:
 - Hip-Hop
 - 译文
+- 影·音·书
+date: "2016/1/31 21:46:25"
 ---
 ![Lung Coallpsing](http://7xqdw6.com1.z0.glb.clouddn.com/Lung%20Coallapsing.png)
 

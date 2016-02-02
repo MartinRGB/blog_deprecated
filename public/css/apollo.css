@@ -514,6 +514,14 @@ section.container {
   display: block;
   float: left;
 }
+
+.sidebarbig {
+  width: 26.4%;
+  height: 868px;
+  display: block;
+  float: left;
+}
+
 @media screen and (min-width: 100px) {
   body {
     width: 950px;

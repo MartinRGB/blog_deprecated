@@ -1,8 +1,10 @@
 
 ---
-title: 放大 (三)
+title: 写： 放大 (三)
 tags:
 - 文字创作
+- 影·音·书
+date: "2016/1/31 23:47:25"
 ---
 
 ![Blow Up](http://7xqdw6.com1.z0.glb.clouddn.com/blowup3.jpg)
