@@ -575,101 +575,7 @@ section.container {
   color: rgba(68, 68, 68, 1);
 }
 
-@media screen and (max-width: 950px) {
-  #width scale
-  .container.sidebar, .sidebar, .sidebarbig ,.divider {
-    display: none;
-  }
-
-  header .logo-link img {
-    height: 32px
-  }
-
-  .home.post-list, .post {
-    width: 100%;
-    float: none;
-  }
-
-  .home.post-list .post-list-item, .post {
-    padding: 10px 20px 35px;
-    border-bottom: 1px solid rgba(68, 68, 68, .15);
-  }
-
-  .archive.post-list {
-    width: 100%;
-    float: none;
-    padding: 10px 20px 35px;
-  }
-
-  .paginator {
-    width: 100%;
-  }
-  .paginator .prev{
-    margin-left: 30px;
-  }
-  .paginator .next{
-    margin-right: 30px;
-  }
-
-  section.container, .post {
-    width: auto;
-    display: block;
-  }
-
-  body {
-    width: 100%
-  }
-
-  header{
-    padding-top: 40px;
-    padding-bottom: -15px;
-  }
-
-  footer {
-    float: left;
-    width: 100%;
-  }
-
-  #top
-  header {
-    padding: 20px 40px
-  }
-  header a.logo-link {
-
-    float: none;
-    display: block;
-    text-align: center
-
-  }
-  header ul.nav.nav-list {
-    display: none;
-  }
-
-  #fontsize
-  .post-block .post-time {
-    font-size: 14px;
-  }
-  .post-block .post-title {
-    font-size: 22px;
-  }
-  .home.post-list .read-more, .post-content{
-    font-size: 16px;
-  }
-
-  .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-    max-width: 300px;
-    left: 15px
-  }
-  .ds-thread, #disqus_thread {
-    width: auto;
-    margin: 2em 20px -2.5em 20px;
-
-  }
-
-
-}
-
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 960px) {
   body {
     width: 950px;
     margin: 0 auto
@@ -679,8 +585,8 @@ section.container {
   }
 }
 .featureblock {
-  margin-top: 56px;
-  margin-left: 60px;
+  margin-top: 50px;
+  margin-left: 100px;
   line-height: 2.4em;
 }
 .feature {
@@ -737,4 +643,277 @@ a.tagfeature.active {
     color: rgba(68, 68, 68, 0.8);
     font-size: 18px;
     margin-top: 20.8px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 960px) {
+
+  .divider {
+    margin-top: 11px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .sidebar{
+    display: block;
+    float:left;
+    width: 18%
+  }
+
+  .sidebarbig{
+    height: auto;
+    display: block;
+    float:left;
+    width: 18%;
+    margin-left: -20px;
+  }
+
+  .postdivide {
+    border-bottom: 1px solid rgba(68, 68, 68, 0.15);
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .post {
+      border-bottom: 1px solid rgba(68, 68, 68, 0);
+      float: left;
+      width: 75%;
+      padding-bottom: 0;
+  }
+
+  .home.post-list, .post {
+    width: 75%;
+    float: left;
+  }
+
+  .home.post-list .post-list-item {
+    padding: 31px 0 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid rgba(68, 68, 68, .15);
+}
+
+  article.post-block{
+    padding: 0px 0px 35px;
+    margin-top: -14px;
+    margin-bottom: -35px;
+  }
+
+  .label-title {
+    margin-top: 3px;
+    margin-bottom: 33px;
+  }
+
+  .archive.post-list {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+  }
+  .paginator {
+    width: 75%;
+  }
+  .paginator .prev{
+    margin-left: 30px;
+  }
+  .paginator .next{
+    margin-right: 30px;
+  }
+
+  section.container{
+    width: auto;
+    display: block;
+  }
+
+  body {
+    width: 100%
+  }
+
+  header{
+    padding-top: 40px;
+  }
+
+  footer {
+    float: left;
+    width: 100%;
+  }
+
+  header .logo-link img {
+    height: 32px
+  }
+
+  header a.logo-link {
+
+    float: left;
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+
+  }
+  header ul.nav.nav-list {
+    float:right;
+    display: block;
+    padding-right: 20px;
+  }
+  header .nav-list-item {
+    margin-top: 0px;
+  }
+
+  #fontsize
+  .post-block .post-time {
+    font-size: 14px;
+  }
+  .post-block .post-title {
+    font-size: 22px;
+  }
+  .home.post-list .read-more, .post-content {
+    font-size: 16px;
+  }
+
+  .featureblock {
+    margin-top: 27px;
+    margin-left: 60px;
+  }
+  .rssfeature , .tagfeature , .archivefeature {
+    font-size: 16px;
+  }
+
+  .feature {
+    font-size: 20px;
+  }
+
+  .post-content h2 {
+    max-width: 300px;
+    font-size: 20px;
+  }
+  .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    max-width: 300px;
+    font-size: 18px;
+  }
+
+  .commentblock{
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ds-thread, #disqus_thread {
+    width: 74%;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  #width scale
+  .container.sidebar, .sidebar, .sidebarbig ,.divider {
+    display: none;
+  }
+
+  .home.post-list, .post {
+    width: 100%;
+    float: none;
+  }
+
+  .home.post-list .post-list-item, .post {
+    padding: 10px 20px 21px;
+    margin-top: -2px;
+    border-bottom: 1px solid rgba(68, 68, 68, .15);
+  }
+
+  .archive.post-list {
+    width: 100%;
+    float: none;
+    padding: 10px 20px 35px;
+    margin-top: -2px;
+  }
+
+  .label-title {
+    margin-top: -16px;
+  }
+
+  .paginator {
+    width: 100%;
+  }
+  .paginator .prev{
+    margin-left: 30px;
+  }
+  .paginator .next{
+    margin-right: 30px;
+  }
+
+  section.container, .post {
+    width: auto;
+    display: block;
+  }
+
+  body {
+    width: 100%
+  }
+
+  header{
+    padding-top: 40px;
+    padding-bottom: -15px;
+  }
+
+  footer {
+    float: left;
+    width: 100%;
+  }
+
+  #top
+  header {
+    padding: 20px 40px
+  }
+
+  header .logo-link img {
+    height: 32px
+  }
+
+  header a.logo-link {
+
+    float: left;
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+
+  }
+  header ul.nav.nav-list {
+    float:right;
+    display: none;
+    padding-right: 20px;
+  }
+  header .nav-list-item {
+    margin-top: 0px;
+  }
+
+  #fontsize
+  .post-block .post-time {
+    font-size: 14px;
+  }
+  .post-block .post-title {
+    font-size: 22px;
+  }
+  .home.post-list .read-more, .post-content{
+    font-size: 16px;
+  }
+
+  .post-content h2 {
+    max-width: 300px;
+    font-size: 20px;
+    left: 0px;
+  }
+  .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    max-width: 300px;
+    font-size: 18px;
+    left: 0px;
+  }
+
+  .ds-thread, #disqus_thread {
+    width: auto;
+    margin: 2em 20px -2.5em 20px;
+
+  }
+
+
 }
