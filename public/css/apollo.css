@@ -575,6 +575,52 @@ section.container {
   color: rgba(68, 68, 68, 1);
 }
 
+
+a.hamburger-icon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  display: none;
+  margin: 4px auto 50px auto;
+  float: right;
+  margin-right: 20px;
+}
+a.hamburger-icon .line-1, a.hamburger-icon .line-2, a.hamburger-icon .line-3 {
+  display: block;
+  background: #444;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  border-radius: 3px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+a.hamburger-icon .line-1 {
+  top: 0;
+}
+a.hamburger-icon .line-2 {
+  top: 50%;
+}
+a.hamburger-icon .line-3 {
+  top: 100%;
+}
+a.hamburger-icon.active .line-1 {
+  transform: translateY(10px) translateX(0) rotate(45deg);
+  -webkit-transform: translateY(10px) translateX(0) rotate(45deg);
+  -moz-transform: translateY(10px) translateX(0) rotate(45deg);
+}
+a.hamburger-icon.active .line-2 {
+  opacity: 0;
+}
+a.hamburger-icon.active .line-3 {
+  transform: translateY(-10px) translateX(0) rotate(-45deg);
+  -webkit-transform: translateY(-10px) translateX(0) rotate(-45deg);
+  -moz-transform: translateY(-10px) translateX(0) rotate(-45deg);
+}
+
+
 @media screen and (min-width: 960px) {
   body {
     width: 950px;
@@ -806,8 +852,28 @@ a.tagfeature.active {
 
 @media screen and (max-width: 640px) {
   #width scale
-  .container.sidebar, .sidebar, .sidebarbig ,.divider {
+  .container.sidebar, .sidebar, .sidebarbig {
     display: none;
+  }
+
+  a.hamburger-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .divider {
+    margin-top: 11px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .divider2 {
+    margin-top: 11px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.01);
   }
 
   .home.post-list, .post {
@@ -815,10 +881,24 @@ a.tagfeature.active {
     float: none;
   }
 
-  .home.post-list .post-list-item, .post {
-    padding: 10px 20px 21px;
-    margin-top: -2px;
+  .home.post-list .post-list-item {
+    padding: 17px 0 35px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-bottom: 1px solid rgba(68, 68, 68, .15);
+  }
+
+  .postdivide {
+    border-bottom: 1px solid rgba(68, 68, 68, 0.15);
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-top: -14px;
+  }
+
+  .post {
+      border-bottom: 1px solid rgba(68, 68, 68, 0);
+      padding-bottom: 0;
   }
 
   .archive.post-list {
@@ -915,5 +995,93 @@ a.tagfeature.active {
 
   }
 
+  .label-title {
+    margin-top: 17px;
+    margin-bottom: 19px;
+  }
+
+  .archive.post-list{
+    margin-top: 7px;
+  }
+
+  .container {
+    padding: 0px;
+  }
+
+
+  #header .nav-container {
+    padding: 0px;
+  }
+  #header .nav-container #main-nav-toggle {
+    float: none;
+    display: block;
+  }
+  .nav-container-inner {
+    display: none;
+  }
+  #header .nav-container #main-nav {
+    display: block;
+    float: none;
+  }
+  .main-nav-list-item, .main-nav-list-link {
+    display: block;
+    float: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  #header .nav-container #main-nav .main-nav-list-item:before,
+  #header .nav-container #main-nav .main-nav-list-link:before,
+  #header .nav-container #main-nav .main-nav-list-item:after,
+  #header .nav-container #main-nav .main-nav-list-link:after {
+    content: "";
+    display: table;
+  }
+  #header .nav-container #main-nav .main-nav-list-item:after,
+  #header .nav-container #main-nav .main-nav-list-link:after {
+    clear: both;
+  }
+  #header .nav-container #main-nav .main-nav-list-item.top-level-menu > a {
+    position: relative;
+  }
+  #header .nav-container #main-nav .main-nav-list-item.top-level-menu > a:after {
+    display: none;
+  }
+  #header .nav-container #main-nav .main-nav-list-item.top-level-menu:hover > a {
+    background: none;
+    color: rgba(255,255,255,0.7);
+  }
+  #header .nav-container #main-nav .main-nav-list-item.top-level-menu > a:hover {
+    color: #fff;
+    background: rgba(0,0,0,0.1);
+  }
+  .main-nav-list-child {
+    display: block !important;
+    margin-top: 5px;
+    margin-left: 20px;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    background: none;
+    border-top: 1px solid rgba(68,68,68,0.15);
+  }
+  .main-nav {
+    margin-top: 0px;
+    margin-bottom: -5px;
+  }
+
+  .main-nav-list-item {
+    padding-top: 5px;
+    margin-left: -20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border-top: 1px solid rgba(68,68,68,0.15);
+  }
+  #header .nav-container #main-nav a {
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
 
 }
