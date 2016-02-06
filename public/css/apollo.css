@@ -620,10 +620,9 @@ a.hamburger-icon.active .line-3 {
   -moz-transform: translateY(-10px) translateX(0) rotate(-45deg);
 }
 
-.main-nav {
+.nav-container-inner {
   display: none;
 }
-
 
 @media screen and (min-width: 960px) {
   body {
@@ -866,16 +865,14 @@ a.tagfeature.active {
   }
 
   .divider {
-    margin-top: 11px;
     width: auto;
+    margin-top: 0px;
     margin-right: 20px;
     margin-left: 20px;
   }
 
   .divider2 {
     width: auto;
-    margin-right: 20px;
-    margin-left: 20px;
     border-bottom: 1px solid rgba(68, 68, 68, .15);
   }
 
@@ -938,6 +935,7 @@ a.tagfeature.active {
   header{
     padding-top: 40px;
     padding-bottom: -15px;
+    margin-bottom: 11px;
   }
 
   footer {
@@ -1012,36 +1010,67 @@ a.tagfeature.active {
     padding: 0px;
   }
 
+
+
   .nav-container-inner{
     width: 100%;
     height: auto;
     margin-top: 14px;
+    background: rgba(50, 55, 59, 1);
+
+  }
+
+  .divider2.active {
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.7);
+  }
+  .container.active {
+    box-shadow: 0px -2px 5px 1px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px -2px 5px 1px rgba(0,0,0,0.7);
   }
 
   .main-nav {
     margin-top: 0px;
     margin-bottom: -5px;
     display: block;
+    padding-left: 0px;
   }
 
   li.main-nav-list-item {
-    padding-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
   }
 
   .main-nav-list-item, .main-nav-list-link {
     display: block;
     float: none;
-    font-size: 14px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.4s;
   }
+
+  .main-nav-list-item:hover, .main-nav-list-link:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
   .main-nav-list-child {
     display: block !important;
-    margin-top: 5px;
-    margin-left: 20px;
+    margin-top: 15px;
     position: relative;
     width: 100%;
     padding: 0px;
     background: none;
+    border-top: 1px solid rgba(255,255,255,0.06);
   }
+
+  .blogcontainer {
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+
 
 }
