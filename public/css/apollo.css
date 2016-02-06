@@ -310,6 +310,9 @@ header .nav-list-item a {
   max-width: 100%;
   margin: 40px auto
 }
+.post-content img:hover {
+}
+
 .post-content .tip {
   position: relative;
   margin: 2em 0;
@@ -577,7 +580,7 @@ section.container {
 
 .featureblock {
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 80px;
   line-height: 2.4em;
 }
 .feature {
@@ -680,7 +683,7 @@ a.hamburger-icon.active .line-3 {
   -moz-transform: translateY(-7px) translateX(0) rotate(-45deg);
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 980px) {
   body {
     width: 950px;
     margin: 0 auto
@@ -699,16 +702,22 @@ a.hamburger-icon.active .line-3 {
 
 }
 
-@media screen and (min-width: 640px) and (max-width: 960px) {
+@media screen and (min-width: 680px) and (max-width: 980px) {
 
   .divider {
-    margin-top: 11px;
     width: auto;
     margin-right: 20px;
     margin-left: 20px;
   }
 
+  .copyright {
+    margin: 132px 20px 18px 20px;
+  }
+
   .sidebar{
+
+    margin-left: 20px;
+    height: auto;
     display: block;
     float:left;
     width: 18%
@@ -719,14 +728,13 @@ a.hamburger-icon.active .line-3 {
     display: block;
     float:left;
     width: 18%;
-    margin-left: -20px;
   }
 
   .postdivide {
     border-bottom: 1px solid rgba(68, 68, 68, 0.15);
     margin-right: 20px;
     margin-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 22px;
 
   }
 
@@ -734,7 +742,7 @@ a.hamburger-icon.active .line-3 {
       border-bottom: 1px solid rgba(68, 68, 68, 0);
       float: left;
       width: 75%;
-      padding-bottom: 0;
+      border-bottom: 1.2em;
   }
 
   .home.post-list, .post {
@@ -743,22 +751,11 @@ a.hamburger-icon.active .line-3 {
   }
 
   .home.post-list .post-list-item {
-    padding: 31px 0 35px;
     margin-left: 20px;
     margin-right: 20px;
     border-bottom: 1px solid rgba(68, 68, 68, .15);
 }
 
-  article.post-block{
-    padding: 0px 0px 35px;
-    margin-top: -14px;
-    margin-bottom: -35px;
-  }
-
-  .label-title {
-    margin-top: 3px;
-    margin-bottom: 33px;
-  }
 
   .archive.post-list {
     width: 75%;
@@ -785,16 +782,12 @@ a.hamburger-icon.active .line-3 {
   }
 
   header{
-    padding-top: 40px;
+    padding-top: 73px;
   }
 
   footer {
     float: left;
     width: 100%;
-  }
-
-  header .logo-link img {
-    height: 32px
   }
 
   header a.logo-link {
@@ -811,39 +804,20 @@ a.hamburger-icon.active .line-3 {
     padding-right: 20px;
   }
   header .nav-list-item {
-    margin-top: 0px;
+    margin-top: 6px;
   }
 
-  #fontsize
-  .post-block .post-time {
-    font-size: 14px;
-  }
-  .post-block .post-title {
-    font-size: 22px;
-  }
-  .home.post-list .read-more, .post-content {
-    font-size: 16px;
-  }
 
   .featureblock {
-    margin-top: 27px;
-    margin-left: 60px;
-  }
-  .rssfeature , .tagfeature , .archivefeature {
-    font-size: 16px;
-  }
-
-  .feature {
-    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
   }
 
   .post-content h2 {
     max-width: 300px;
-    font-size: 20px;
   }
   .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
     max-width: 300px;
-    font-size: 18px;
   }
 
   .commentblock{
@@ -866,10 +840,14 @@ a.hamburger-icon.active .line-3 {
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 680px) {
   #width scale
   .container.sidebar, .sidebar, .sidebarbig {
     display: none;
+  }
+
+  .copyright {
+    margin: 132px 20px 18px 20px;
   }
 
   a.hamburger-icon {
