@@ -585,16 +585,75 @@ section.container {
 }
 .feature {
   font-size: 26px;
+  font-weight: bold;
 }
 .rssfeature, .archivefeature, .tagfeature {
   color: rgba(68, 68, 68, 0.5);
+  font-size: 18px;
 }
+
 a.tagfeature.active {
   color: rgba(68, 68, 68, 1);
 }
 .selectarchivefeature {
   color: rgba(68, 68, 68, 1);
+  font-size: 18px;
 }
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('http://7xqdw6.com1.z0.glb.clouddn.com/icomoon.eot?fkid48');
+    src:    url('http://7xqdw6.com1.z0.glb.clouddn.com/icomoon.eot?fkid48#iefix') format('embedded-opentype'),
+        url('http://7xqdw6.com1.z0.glb.clouddn.com/icomoon.ttf?fkid48') format('truetype'),
+        url('http://7xqdw6.com1.z0.glb.clouddn.com/icomoon.woff?fkid48') format('woff'),
+        url('http://7xqdw6.com1.z0.glb.clouddn.com/icomoon.svg?fkid48#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    float: left;
+    margin-right: 8px;
+
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Dribbble:before {
+    content: "\e900";
+}
+.icon-GitHub:before {
+    content: "\e901";
+}
+.icon-Tag:before {
+    content: "\e903";
+}
+.icon-Archive:before {
+    content: "\e902";
+}
+.icon-RSS:before {
+    content: "\e904";
+}
+
+
 .archive post-list.post-list-item {
   margin: 50px 0;
 }
@@ -720,14 +779,14 @@ a.hamburger-icon.active .line-3 {
     height: auto;
     display: block;
     float:left;
-    width: 18%
+    width: 20%
   }
 
   .sidebarbig{
     height: auto;
     display: block;
     float:left;
-    width: 18%;
+    width: 20%;
   }
 
   .postdivide {
