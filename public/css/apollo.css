@@ -620,6 +620,10 @@ a.hamburger-icon.active .line-3 {
   -moz-transform: translateY(-10px) translateX(0) rotate(-45deg);
 }
 
+.main-nav {
+  display: none;
+}
+
 
 @media screen and (min-width: 960px) {
   body {
@@ -869,12 +873,12 @@ a.tagfeature.active {
   }
 
   .divider2 {
-    margin-top: 11px;
     width: auto;
     margin-right: 20px;
     margin-left: 20px;
-    border-bottom: 1px solid rgba(68, 68, 68, 0.01);
+    border-bottom: 1px solid rgba(68, 68, 68, .15);
   }
+
 
   .home.post-list, .post {
     width: 100%;
@@ -1008,55 +1012,27 @@ a.tagfeature.active {
     padding: 0px;
   }
 
+  .nav-container-inner{
+    width: 100%;
+    height: auto;
+    margin-top: 14px;
+  }
 
-  #header .nav-container {
-    padding: 0px;
-  }
-  #header .nav-container #main-nav-toggle {
-    float: none;
+  .main-nav {
+    margin-top: 0px;
+    margin-bottom: -5px;
     display: block;
   }
-  .nav-container-inner {
-    display: none;
+
+  li.main-nav-list-item {
+    padding-top: 5px;
+    margin-bottom: 5px;
   }
-  #header .nav-container #main-nav {
-    display: block;
-    float: none;
-  }
+
   .main-nav-list-item, .main-nav-list-link {
     display: block;
     float: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     font-size: 14px;
-  }
-  #header .nav-container #main-nav .main-nav-list-item:before,
-  #header .nav-container #main-nav .main-nav-list-link:before,
-  #header .nav-container #main-nav .main-nav-list-item:after,
-  #header .nav-container #main-nav .main-nav-list-link:after {
-    content: "";
-    display: table;
-  }
-  #header .nav-container #main-nav .main-nav-list-item:after,
-  #header .nav-container #main-nav .main-nav-list-link:after {
-    clear: both;
-  }
-  #header .nav-container #main-nav .main-nav-list-item.top-level-menu > a {
-    position: relative;
-  }
-  #header .nav-container #main-nav .main-nav-list-item.top-level-menu > a:after {
-    display: none;
-  }
-  #header .nav-container #main-nav .main-nav-list-item.top-level-menu:hover > a {
-    background: none;
-    color: rgba(255,255,255,0.7);
-  }
-  #header .nav-container #main-nav .main-nav-list-item.top-level-menu > a:hover {
-    color: #fff;
-    background: rgba(0,0,0,0.1);
   }
   .main-nav-list-child {
     display: block !important;
@@ -1066,22 +1042,6 @@ a.tagfeature.active {
     width: 100%;
     padding: 0px;
     background: none;
-    border-top: 1px solid rgba(68,68,68,0.15);
-  }
-  .main-nav {
-    margin-top: 0px;
-    margin-bottom: -5px;
-  }
-
-  .main-nav-list-item {
-    padding-top: 5px;
-    margin-left: -20px;
-    margin-right: 20px;
-    margin-bottom: 5px;
-    border-top: 1px solid rgba(68,68,68,0.15);
-  }
-  #header .nav-container #main-nav a {
-    border-bottom: 1px solid rgba(255,255,255,0.06);
   }
 
 }
