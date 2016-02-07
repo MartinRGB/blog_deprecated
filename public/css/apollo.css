@@ -1061,8 +1061,6 @@ a.hamburger-icon.active .line-3 {
     padding: 0px;
   }
 
-
-
   .nav-container-inner{
     width: 100%;
     height: auto;
@@ -1072,13 +1070,13 @@ a.hamburger-icon.active .line-3 {
   }
 
   .divider2.active {
-    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.4);
-    -webkit-box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px 15px 15px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 15px 15px 1px rgba(0,0,0,0.3);
   }
   .container.active {
     padding-top: 1px;
-    box-shadow: 0px -5px 15px 1px rgba(0,0,0,0.4);
-    -webkit-box-shadow: 0px -5px 15px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px -15px 15px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px -15px 15px 1px rgba(0,0,0,0.3);
   }
 
   .main-nav {
