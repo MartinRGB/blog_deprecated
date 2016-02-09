@@ -1026,6 +1026,7 @@ a.hamburger-icon.active .line-3 {
   }
   .post-block .post-title {
     font-size: 22px;
+    max-width: 95%;
   }
   .home.post-list .read-more, .post-content{
     font-size: 16px;
