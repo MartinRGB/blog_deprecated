@@ -956,8 +956,14 @@ a.hamburger-icon.active .line-3 {
   .archive.post-list {
     width: 100%;
     float: none;
-    padding: 10px 20px 35px;
+    padding: 10px 0px 35px;
     margin-top: -2px;
+    overflow: hidden;
+  }
+
+  .archivefix {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .label-title {
@@ -1026,8 +1032,8 @@ a.hamburger-icon.active .line-3 {
   }
   .post-block .post-title {
     font-size: 22px;
-    max-width: 95%;
   }
+
   .home.post-list .read-more, .post-content{
     font-size: 16px;
   }
