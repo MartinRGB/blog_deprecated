@@ -4,7 +4,7 @@
   
   <link href="/blog/atom.xml" rel="self"/>
   <link href="http://www.martinrgb.com/blog/"/>
-  <updated>2016-02-08T13:25:07.000Z</updated>
+  <updated>2016-07-14T04:31:14.000Z</updated>
   <id>http://www.martinrgb.com/blog/</id>
   
   <author>
@@ -13,6 +13,69 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[写： 惬读的故事]]></title>
+    <link href="http://www.martinrgb.com/blog/2016/07/10/QieDu_Design_I/"/>
+    <id>http://www.martinrgb.com/blog/2016/07/10/QieDu_Design_I/</id>
+    <published>2016-07-10T02:37:25.000Z</published>
+    <updated>2016-07-14T04:31:14.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_6e31b1b5-4363-4287-8ece-956c9f770407.jpg/s200060" alt="Cover"></p>
+<blockquote>
+<p>Design is an opportunity to continue telling the story<br><a id="more"></a></p>
+</blockquote>
+<p>#躺在文件夹里的旧设计</p>
+<p>##一个阅读者的初衷<br>气质的养成来源于精神生活，阅读是精神生活的主食。回想阅读岁月，每一个惊心动魄的故事，每一块字句凝练的精神内核，每一页纸张的质感都曾让我感动、深思，它们是我回忆中的珍宝。<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_68825ea0-dbbd-451c-a8b6-aa95b81dad17.jpg/s150070" alt="Pics1"></p>
+<p><figcaption>书架一角</figcaption><br>工作之后，阅读越来越具有职业目的性，学习行业技术的时间越来越多，人文性的阅读越来越少。学会了很多阅读不曾给予的知识，却也时常回味顾往的美好。阅读，对于我来说，变成了一种欲望。<br>去年，我做了一点尝试，我尝试用设计去做一点和阅读相关的东西。我深知阅读完精彩书籍之后的激动，那种与同好者交流的渴望。我想做一款概念设计，让读者与读者社交，了解其他用户的相关阅读书目。</p>
+<p>##驱动力来自一节公开课<br>刚好那段时间接到了站酷公开课的需求，需要分解讲解 动画原型工具 Form。<br>实际需求和概念想法一拍即合，下一步便是思考如何将自己的概念辅助与实践。</p>
+<p>##追求宁静阅读<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_623d8a1b-f472-4844-b8c8-0ce83c7d1247.jpg/s150070" alt="Pics2"></p>
+<p><figcaption>Munchery 的设计美学不是惊艳的<br>而是满足的恬淡感</figcaption><br>我非常欣赏 Munchery 的配色与配图，恬淡而又醒目，视觉的设计营造了相关产品的氛围感。<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_f2a28c91-de4a-48dc-948f-a40491ac88d1.jpg/s150070" alt="Pics3"></p>
+<p><figcaption>「惬读」的 Style Guide</figcaption><br>经过反复的调节与对比，色彩方面，背景色选取了一张较有纸质感的灰色，同时也能对比出卡片的纯白。文本部分层次感主要依赖于墨黄色（#545452）的透明度变化，最后，整体的品牌和行为召唤（Call to Action）使用了鲜亮而不过分刺眼的橘色。<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_29fef417-09e7-43e4-aec2-2f6072448fa5.jpg/s150070" alt="Pics4"></p>
+<p><figcaption>我更喜欢 Futura Lt Light 的数字<br>饱满且更简约</figcaption><br>文本部分的考量主要在于「选取哪种富有汉字韵味的字体作为 Title 字体」，在对比了方正清刻本悦、颜宋、风雅颂等字体后，我发觉我对于颜宋有一种特殊的偏爱：独特的辨识感，可读性强，而其余中文部分配以思源黑体，数字配以 Futura 字体，这种现代字形与颜宋的结合居然并不突兀，也是出乎了我的意料之外。</p>
+<p>##看看周围人在读什么<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_af90841e-7dd5-4d0d-8275-5a5f6473191e.jpg/s150070" alt="Pics5"></p>
+<p><figcaption>用户利用 Mapbox 构建的<br>每日运动轨迹地图</figcaption><br>Mapbox 这款产品令人赞叹不已，它挖掘了地图的更多玩法并提供了优美的设计平台。我想利用 Mapbox 的样式定制功能来自定义地图，查看周围人在阅读什么。<br>我想为惬读营造的界面感觉，如果用形容词来形容，那便是：「纸质般的」、「温暖的」、「安静的」，基于之前的色彩风格，我在 Mapbox 中定义了地图样式。<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_36c32de7-558a-4719-9dc1-6539940d1c99.jpg/s150070" alt="Pics6"></p>
+<p><figcaption>Mapbox 自定义了地图样式<br>可惜地图数据不全</figcaption><br>当时想用地图来了解周围人在读什么，他/她之前在读什么，或者更延伸一步，产生借/换/卖等读书交易和社交，但最后设计到了查看阅读记录。</p>
+<p>##发现佳句<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_bc55ad9a-4441-470d-9ad4-9528258669d1.jpg/s150070" alt="Pics7"></p>
+<p><figcaption>长大后才渐渐理解这句话的意义</figcaption><br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_2d5fbbc1-d12f-4d86-b82e-3465b01a7188.jpg/s150070" alt="Pics8"></p>
+<p><figcaption>引导的设计可能还需考量</figcaption><br>我从那些伟大而又引人内省的章句中获益良多，所以我希望引导具有人文色彩，在用户每一次打开应用时，出现不同的字句，扣人心弦而又富有新鲜感。<br>综上，在积累了足够多的情绪版后，我制作了一版简易交互原型，能较好的阐述这款概念设计的想法。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_6e31b1b5-4363-4287-8ece-956c9f770407.jpg/s200060" alt="Cover"></p>
+<blockquote>
+<p>Design is an opportunity to continue telling the story<br>]]>
+    
+    </summary>
+    
+      <category term="设计" scheme="http://www.martinrgb.com/blog/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[译： Google & IBM 动态设计语言文档]]></title>
+    <link href="http://www.martinrgb.com/blog/2016/06/14/Google_IBM_Motion/"/>
+    <id>http://www.martinrgb.com/blog/2016/06/14/Google_IBM_Motion/</id>
+    <published>2016-06-14T02:37:25.000Z</published>
+    <updated>2016-06-14T02:42:19.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/MD&amp;IBM_Motion.png" alt="Cover"></p>
+<blockquote>
+<p>翻译的 Material Motion &amp; IBM Motion Guideline，仅供学习使用</p>
+</blockquote>
+<a id="more"></a>
+<p>翻译是学习的极佳途径，保持动力，持续前进，后继可能会尝试重新翻译下 iOS 10 的设计规范</p>
+<p><a href="http://www.martinrgb.com/Material-Motion-Chinese/motion/material-motion.html">「Material Motion Guideline」</a></p>
+<p><a href="http://www.martinrgb.com/IBM-Moiton-Chinese/framework/animation/introduction.html">「IBM Motion Guideline」</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/MD&amp;IBM_Motion.png" alt="Cover"></p>
+<blockquote>
+<p>翻译的 Material Motion &amp; IBM Motion Guideline，仅供学习使用</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="设计" scheme="http://www.martinrgb.com/blog/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[拍： 新年观海]]></title>

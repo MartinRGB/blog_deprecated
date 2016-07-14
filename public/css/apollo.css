@@ -11,6 +11,19 @@ body {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block
 }
+
+figcaption {
+  display: block;
+  color: rgba(37, 37, 37, 0.5);
+  padding: 0px 0px 40px 0px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 0.8em;
+  font-weight: 700;
+  font-family: "Lato", "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif
+}
+
 footer {
   position: relative;
   float: left;
