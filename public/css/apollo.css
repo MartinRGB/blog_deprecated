@@ -15,7 +15,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 figcaption {
   display: block;
   color: rgba(37, 37, 37, 0.5);
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 20px 0px;
   font-size: 0.8em;
   letter-spacing: 1px;
   text-align: left;
