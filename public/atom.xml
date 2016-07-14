@@ -4,7 +4,7 @@
   
   <link href="/blog/atom.xml" rel="self"/>
   <link href="http://www.martinrgb.com/blog/"/>
-  <updated>2016-07-14T04:38:19.000Z</updated>
+  <updated>2016-07-14T05:13:28.000Z</updated>
   <id>http://www.martinrgb.com/blog/</id>
   
   <author>
@@ -15,31 +15,71 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[写： 惬读的故事（下）]]></title>
+    <link href="http://www.martinrgb.com/blog/2016/07/12/QieDu_Design_II/"/>
+    <id>http://www.martinrgb.com/blog/2016/07/12/QieDu_Design_II/</id>
+    <published>2016-07-12T02:37:25.000Z</published>
+    <updated>2016-07-14T05:13:28.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qieduCover.png" alt="Cover"></p>
+<blockquote>
+<p>Design is an opportunity to continue telling the story<br><a id="more"></a></p>
+</blockquote>
+<h1 id="u91CD_u65B0_u601D_u8003_uFF0C_u63D0_u70BC_uFF0C_u65B0_u6A21_u677F_u8BDE_u751F"><a href="#u91CD_u65B0_u601D_u8003_uFF0C_u63D0_u70BC_uFF0C_u65B0_u6A21_u677F_u8BDE_u751F" class="headerlink" title="重新思考，提炼，新模板诞生"></a>重新思考，提炼，新模板诞生</h1><p>一年后，当需要为字里行间设计模板时，我突然想起了这个未完成的项目，如果没有字里行间产品的需求，我估计这个概念，至今仍然会躺在某个文件夹的深处。<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu9.jpg" alt="Pics9"></p>
+<p><figcaption>15 年夏天 1 天速成的<br>交互动画文件</figcaption><br>但是，想要拿来就用，需要克服很多问题：<br>1.概念设计是一回事，产品实现是另外一回事，在旧版的惬读设计中，很多产品逻辑不能自圆其说。<br>2.旧版设计是应用设计，而这一次，我需要设计的是文章模板，门道并不相同。<br>3.web 技术虽可解决中文 webfont 问题，但需要学习并借鉴 CSS 思想进行排版规划<br>带着这些思考，我开始进行重设计。</p>
+<h2 id="u597D_u7684_u8BBE_u8BA1_u2026_u662F_u8C28_u614E_u514B_u5236_u7684"><a href="#u597D_u7684_u8BBE_u8BA1_u2026_u662F_u8C28_u614E_u514B_u5236_u7684" class="headerlink" title="好的设计…是谨慎克制的"></a>好的设计…是谨慎克制的</h2><p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu10.jpg" alt="Pics10"></p>
+<p><figcaption>设计不应过分追逐潮流应了解趋势<br>根据自己产品的实际情况平衡设计<br>这句大白话我花了很久才理解其中深意</figcaption><br>曾经，为了磨练技巧，热衷于在 Dribbble 上制作一些「语不惊人誓不休」的设计，但是，随着产品经验的丰富以及对开发技术的理解，我越来越困惑：「为什么可以简单解决的问题，偏偏要选择复杂的解决方案？炫丽的交互动画真有其存在的意义吗？」</p>
+<p><blockquote>履行某种功能的产品具有工具属性，它们既不是装饰物也不是艺术品。因此，它们的设计应该是中性的。器具应当隐退，为人的自我实现留出空间。</blockquote><br>我停止了对潮流的追逐，我开始停下做动画，思考产品设计最需要的，用户最想得到的，开始做更多的产品，学习实践中的开发知识。规避误区，解决问题。<br>所以这一次的模板设计，和旧设计有着本质的不同，我的设计观变了。旧版惬读中某些部分的设计比较稳固，比如说字体、配色、氛围感，而有些部分欠考虑，显得轻佻，比如说未经思考的产品逻辑，没有花太多心思打磨的交互动画。模板设计第一件事，便是确定配色和字体。</p>
+<h2 id="u795E_u4F3C_u4F46_u4E0D_u5F62_u4F3C_u7684_u6837_u5F0F"><a href="#u795E_u4F3C_u4F46_u4E0D_u5F62_u4F3C_u7684_u6837_u5F0F" class="headerlink" title="神似但不形似的样式"></a>神似但不形似的样式</h2><p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu11.jpg" alt="Pics11"></p>
+<p><figcaption>根据阅读的需求，配色方面稍作改进<br>提升配色的对比感，以求更好的可读性</figcaption><br>配色方面沿用旧版的配色，然而稍作调整，追求更明亮的阅读氛围感，橙色更饱和，背景使用纯白，正文使用更具对比感的 #404040。<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu12.jpg" alt="Pics12"></p>
+<p><figcaption>字体排版的考量</figcaption><br>在字号调配过程中，我发现 14 px 精致感固然好，然而可读性较差，16 px 较为易读，然而屏幕空间有限，单屏承载的字数过少，破坏阅读节奏，最后折中选取了 15 px。行高同理，经过比较，在 2 倍行高和 1.5 倍行高中，选取了较为通透，同时保证阅读节奏的 1.7 倍行高<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu13.jpg" alt="Pics13"></p>
+<p><figcaption>在 iPhone 上的可读性对比<br>思源黑体 Regular 比 Normal 更胜一筹</figcaption><br>在最初的设计中，使用了思源黑体 Normal ，然而在知乎读到了蒙纳高级字体设计师许瀚文先生对思源黑体的评价：</p>
+<p><blockquote>Normal 用在光亮底色网站壁纸，Regular 则用在暗色、黑色壁纸上；或Normal 用在 iPad app 上，Regular用在 iPhone app 上。</blockquote><br>仅从视觉来说，Normal 的纤细感固然感人，但是设计目的是提升阅读体验，一番对比后，我选择了 Regular。</p>
+<h2 id="u300C_u521D_u59CB_u300D_u4E0E_u300C_u7EC8_u6B62_u300D_u7684_u611F_u89C9"><a href="#u300C_u521D_u59CB_u300D_u4E0E_u300C_u7EC8_u6B62_u300D_u7684_u611F_u89C9" class="headerlink" title="「初始」与「终止」的感觉"></a>「初始」与「终止」的感觉</h2><p>对于写作来说，最难的莫过于开头和结尾。对于读者来说，开头需要意味深长，令人产生遐想，结尾需要休止感，以便进行回味，仪式感很重要。<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu14.jpg" alt="Pics14"></p>
+<p><figcaption>模板头部的设计经过了多次迭代</figcaption><br>开头和结尾使用了橙色的横线，具有明亮的阅读体验，让读者了解文章内容何时开始，何时结束。同时赋予了文章一种仪式感和清新韵味。</p>
+<h2 id="CSS_in_my_mind"><a href="#CSS_in_my_mind" class="headerlink" title="CSS in my mind"></a>CSS in my mind</h2><p>在设计模板时，我参考了很多杂志设计，印刷设计，然而，我设计所面向的并不是纸质，而是屏幕，如果仅仅使用 Photoshop 制作模板，会不可避免的在开发流程中出问题。事实上，很多排版设计是在 CSS 中完成的。<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu15.jpg" alt="Pics15"></p>
+<p><figcaption>在工程师搭建的规则基础上<br>完善排版与布局。</figcaption><br>事实上，我的职责不仅仅是模板设计，还有布局规则的定制，CSS 便是规则制定工具，利用 CSS 进行排版，不但便于与工程师沟通，也能更好的理解数字排版的本质，优化设计。</p>
+<p>#并非终章<br>写到这里，惬读的设计故事就差不多了，但它的故事并未完结，它将传递到每一个写作者的手中，继续衍生一个又一个故事。<br>希望使用惬读模板的用户能够看到这篇文章，也希望你们写作时能有和我此刻一样的体验。<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu16.jpg" alt="Pics16"></p>
+<p><figcaption>使用惬读写作的文章</figcaption><br>最后，感谢叶冠锐先生、王艺宁先生在模板设计中的一些建议和帮助。当然，如果你发现了什么问题，或者有什么好的改进想法，欢迎建议和斧正。<br>好了，朋友们，属于我的短篇结束了，下一个短篇请你来撰写。</p>
+<p><a href="https://zi.com/w/a?id=57723a5f0cf29338e7e9a539" target="_blank" rel="external">「原文阅读地址」</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qieduCover.png" alt="Cover"></p>
+<blockquote>
+<p>Design is an opportunity to continue telling the story<br>]]>
+    
+    </summary>
+    
+      <category term="设计" scheme="http://www.martinrgb.com/blog/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[写： 惬读的故事（上）]]></title>
     <link href="http://www.martinrgb.com/blog/2016/07/10/QieDu_Design_I/"/>
     <id>http://www.martinrgb.com/blog/2016/07/10/QieDu_Design_I/</id>
     <published>2016-07-10T02:37:25.000Z</published>
-    <updated>2016-07-14T04:38:19.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_6e31b1b5-4363-4287-8ece-956c9f770407.jpg/s200060" alt="Cover"></p>
+    <updated>2016-07-14T05:13:34.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qieduCover.png" alt="Cover"></p>
 <blockquote>
 <p>Design is an opportunity to continue telling the story<br><a id="more"></a></p>
 </blockquote>
-<h1 id="u8EBA_u5728_u6587_u4EF6_u5939_u91CC_u7684_u65E7_u8BBE_u8BA1"><a href="#u8EBA_u5728_u6587_u4EF6_u5939_u91CC_u7684_u65E7_u8BBE_u8BA1" class="headerlink" title="躺在文件夹里的旧设计"></a>躺在文件夹里的旧设计</h1><h2 id="u4E00_u4E2A_u9605_u8BFB_u8005_u7684_u521D_u8877"><a href="#u4E00_u4E2A_u9605_u8BFB_u8005_u7684_u521D_u8877" class="headerlink" title="一个阅读者的初衷"></a>一个阅读者的初衷</h2><p>气质的养成来源于精神生活，阅读是精神生活的主食。回想阅读岁月，每一个惊心动魄的故事，每一块字句凝练的精神内核，每一页纸张的质感都曾让我感动、深思，它们是我回忆中的珍宝。<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_68825ea0-dbbd-451c-a8b6-aa95b81dad17.jpg/s150070" alt="Pics1"></p>
+<h1 id="u8EBA_u5728_u6587_u4EF6_u5939_u91CC_u7684_u65E7_u8BBE_u8BA1"><a href="#u8EBA_u5728_u6587_u4EF6_u5939_u91CC_u7684_u65E7_u8BBE_u8BA1" class="headerlink" title="躺在文件夹里的旧设计"></a>躺在文件夹里的旧设计</h1><h2 id="u4E00_u4E2A_u9605_u8BFB_u8005_u7684_u521D_u8877"><a href="#u4E00_u4E2A_u9605_u8BFB_u8005_u7684_u521D_u8877" class="headerlink" title="一个阅读者的初衷"></a>一个阅读者的初衷</h2><p>气质的养成来源于精神生活，阅读是精神生活的主食。回想阅读岁月，每一个惊心动魄的故事，每一块字句凝练的精神内核，每一页纸张的质感都曾让我感动、深思，它们是我回忆中的珍宝。<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu1.jpg" alt="Pics1"></p>
 <p><figcaption>书架一角</figcaption><br>工作之后，阅读越来越具有职业目的性，学习行业技术的时间越来越多，人文性的阅读越来越少。学会了很多阅读不曾给予的知识，却也时常回味顾往的美好。阅读，对于我来说，变成了一种欲望。<br>去年，我做了一点尝试，我尝试用设计去做一点和阅读相关的东西。我深知阅读完精彩书籍之后的激动，那种与同好者交流的渴望。我想做一款概念设计，让读者与读者社交，了解其他用户的相关阅读书目。</p>
 <h2 id="u9A71_u52A8_u529B_u6765_u81EA_u4E00_u8282_u516C_u5F00_u8BFE"><a href="#u9A71_u52A8_u529B_u6765_u81EA_u4E00_u8282_u516C_u5F00_u8BFE" class="headerlink" title="驱动力来自一节公开课"></a>驱动力来自一节公开课</h2><p>刚好那段时间接到了站酷公开课的需求，需要分解讲解 动画原型工具 Form。<br>实际需求和概念想法一拍即合，下一步便是思考如何将自己的概念辅助与实践。</p>
-<h2 id="u8FFD_u6C42_u5B81_u9759_u9605_u8BFB"><a href="#u8FFD_u6C42_u5B81_u9759_u9605_u8BFB" class="headerlink" title="追求宁静阅读"></a>追求宁静阅读</h2><p><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_623d8a1b-f472-4844-b8c8-0ce83c7d1247.jpg/s150070" alt="Pics2"></p>
-<p><figcaption>Munchery 的设计美学不是惊艳的<br>而是满足的恬淡感</figcaption><br>我非常欣赏 Munchery 的配色与配图，恬淡而又醒目，视觉的设计营造了相关产品的氛围感。<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_f2a28c91-de4a-48dc-948f-a40491ac88d1.jpg/s150070" alt="Pics3"></p>
-<p><figcaption>「惬读」的 Style Guide</figcaption><br>经过反复的调节与对比，色彩方面，背景色选取了一张较有纸质感的灰色，同时也能对比出卡片的纯白。文本部分层次感主要依赖于墨黄色（#545452）的透明度变化，最后，整体的品牌和行为召唤（Call to Action）使用了鲜亮而不过分刺眼的橘色。<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_29fef417-09e7-43e4-aec2-2f6072448fa5.jpg/s150070" alt="Pics4"></p>
+<h2 id="u8FFD_u6C42_u5B81_u9759_u9605_u8BFB"><a href="#u8FFD_u6C42_u5B81_u9759_u9605_u8BFB" class="headerlink" title="追求宁静阅读"></a>追求宁静阅读</h2><p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu2.jpg" alt="Pics2"></p>
+<p><figcaption>Munchery 的设计美学不是惊艳的<br>而是满足的恬淡感</figcaption><br>我非常欣赏 Munchery 的配色与配图，恬淡而又醒目，视觉的设计营造了相关产品的氛围感。<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu3.jpg" alt="Pics3"></p>
+<p><figcaption>「惬读」的 Style Guide</figcaption><br>经过反复的调节与对比，色彩方面，背景色选取了一张较有纸质感的灰色，同时也能对比出卡片的纯白。文本部分层次感主要依赖于墨黄色（#545452）的透明度变化，最后，整体的品牌和行为召唤（Call to Action）使用了鲜亮而不过分刺眼的橘色。<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu4.jpg" alt="Pics4"></p>
 <p><figcaption>我更喜欢 Futura Lt Light 的数字<br>饱满且更简约</figcaption><br>文本部分的考量主要在于「选取哪种富有汉字韵味的字体作为 Title 字体」，在对比了方正清刻本悦、颜宋、风雅颂等字体后，我发觉我对于颜宋有一种特殊的偏爱：独特的辨识感，可读性强，而其余中文部分配以思源黑体，数字配以 Futura 字体，这种现代字形与颜宋的结合居然并不突兀，也是出乎了我的意料之外。</p>
-<h2 id="u770B_u770B_u5468_u56F4_u4EBA_u5728_u8BFB_u4EC0_u4E48"><a href="#u770B_u770B_u5468_u56F4_u4EBA_u5728_u8BFB_u4EC0_u4E48" class="headerlink" title="看看周围人在读什么"></a>看看周围人在读什么</h2><p><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_af90841e-7dd5-4d0d-8275-5a5f6473191e.jpg/s150070" alt="Pics5"></p>
-<p><figcaption>用户利用 Mapbox 构建的<br>每日运动轨迹地图</figcaption><br>Mapbox 这款产品令人赞叹不已，它挖掘了地图的更多玩法并提供了优美的设计平台。我想利用 Mapbox 的样式定制功能来自定义地图，查看周围人在阅读什么。<br>我想为惬读营造的界面感觉，如果用形容词来形容，那便是：「纸质般的」、「温暖的」、「安静的」，基于之前的色彩风格，我在 Mapbox 中定义了地图样式。<br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_36c32de7-558a-4719-9dc1-6539940d1c99.jpg/s150070" alt="Pics6"></p>
+<h2 id="u770B_u770B_u5468_u56F4_u4EBA_u5728_u8BFB_u4EC0_u4E48"><a href="#u770B_u770B_u5468_u56F4_u4EBA_u5728_u8BFB_u4EC0_u4E48" class="headerlink" title="看看周围人在读什么"></a>看看周围人在读什么</h2><p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu5.jpg" alt="Pics5"></p>
+<p><figcaption>用户利用 Mapbox 构建的<br>每日运动轨迹地图</figcaption><br>Mapbox 这款产品令人赞叹不已，它挖掘了地图的更多玩法并提供了优美的设计平台。我想利用 Mapbox 的样式定制功能来自定义地图，查看周围人在阅读什么。<br>我想为惬读营造的界面感觉，如果用形容词来形容，那便是：「纸质般的」、「温暖的」、「安静的」，基于之前的色彩风格，我在 Mapbox 中定义了地图样式。<br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu6.jpg" alt="Pics6"></p>
 <p><figcaption>Mapbox 自定义了地图样式<br>可惜地图数据不全</figcaption><br>当时想用地图来了解周围人在读什么，他/她之前在读什么，或者更延伸一步，产生借/换/卖等读书交易和社交，但最后设计到了查看阅读记录。</p>
-<h2 id="u53D1_u73B0_u4F73_u53E5"><a href="#u53D1_u73B0_u4F73_u53E5" class="headerlink" title="发现佳句"></a>发现佳句</h2><p><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_bc55ad9a-4441-470d-9ad4-9528258669d1.jpg/s150070" alt="Pics7"></p>
-<p><figcaption>长大后才渐渐理解这句话的意义</figcaption><br><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_2d5fbbc1-d12f-4d86-b82e-3465b01a7188.jpg/s150070" alt="Pics8"></p>
+<h2 id="u53D1_u73B0_u4F73_u53E5"><a href="#u53D1_u73B0_u4F73_u53E5" class="headerlink" title="发现佳句"></a>发现佳句</h2><p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu7.jpg" alt="Pics7"></p>
+<p><figcaption>长大后才渐渐理解这句话的意义</figcaption><br><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qiedu8.jpg" alt="Pics8"></p>
 <p><figcaption>引导的设计可能还需考量</figcaption><br>我从那些伟大而又引人内省的章句中获益良多，所以我希望引导具有人文色彩，在用户每一次打开应用时，出现不同的字句，扣人心弦而又富有新鲜感。<br>综上，在积累了足够多的情绪版后，我制作了一版简易交互原型，能较好的阐述这款概念设计的想法。</p>
+<p><a href="https://zi.com/w/a?id=57723a5f0cf29338e7e9a539" target="_blank" rel="external">「原文阅读地址」</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="https://img.zi.com/images/2016/6/28/2016/d77bc23e-1e24-46c7-97b7-1932691da2cd_6e31b1b5-4363-4287-8ece-956c9f770407.jpg/s200060" alt="Cover"></p>
+    <![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qieduCover.png" alt="Cover"></p>
 <blockquote>
 <p>Design is an opportunity to continue telling the story<br>]]>
     
