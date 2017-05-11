@@ -1,0 +1,35 @@
+extends partial/layout
+
+block container
+    include mixins/post
+    +postList()
+    .sidebarbig
+      .featureblock
+        .feature Feature
+        if page.tag || page.category
+          a.archivefeature(href='/blog/archives/')
+
+            span Archive
+          br
+          a.tagfeature.active(href='/blog/tags')
+
+            span Tags
+        else
+          a.selectarchivefeature(href='/blog/archives/')
+
+            span Archive
+          br
+          a.tagfeature(href='/blog/tags')
+
+            span Tags
+        br
+        a.rssfeature(href='/blog/atom.xml')
+          
+          span RSS
+
+block pagination
+    include mixins/archivepaginator
+    +home()
+
+block copyright
+    include partial/copyright

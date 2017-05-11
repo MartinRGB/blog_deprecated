@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Martin
+title: Hexo
 subtitle:
 description:
-author: MartinRGB
-language: zh-cn
+author: John Doe
+language:
 timezone:
 
 # URL
@@ -67,7 +67,7 @@ theme: apollo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
+deploy: 
   type: git
   repo: http://github.com/MartinRGB/blog.git
 
