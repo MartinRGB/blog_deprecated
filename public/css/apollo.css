@@ -11,19 +11,6 @@ body {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block
 }
-
-figcaption {
-  display: block;
-  color: rgba(37, 37, 37, 0.5);
-  padding: 0px 0px 20px 0px;
-  font-size: 0.8em;
-  letter-spacing: 1px;
-  text-align: left;
-  line-height: 1.8em;
-  font-weight: 700;
-  font-family: "Lato", "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif
-}
-
 footer {
   position: relative;
   float: left;
@@ -969,14 +956,8 @@ a.hamburger-icon.active .line-3 {
   .archive.post-list {
     width: 100%;
     float: none;
-    padding: 10px 0px 35px;
+    padding: 10px 20px 35px;
     margin-top: -2px;
-    overflow: hidden;
-  }
-
-  .archivefix {
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   .label-title {
@@ -1046,7 +1027,6 @@ a.hamburger-icon.active .line-3 {
   .post-block .post-title {
     font-size: 22px;
   }
-
   .home.post-list .read-more, .post-content{
     font-size: 16px;
   }
