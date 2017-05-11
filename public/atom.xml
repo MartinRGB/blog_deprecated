@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Martin&#39;s Blog</title>
   
   <link href="/blog/atom.xml" rel="self"/>
   
@@ -9,7 +9,7 @@
   <id>http://www.martinrgb.com/blog/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>MartinRGB</name>
     
   </author>
   

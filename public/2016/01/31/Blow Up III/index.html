@@ -1,42 +1,56 @@
-extends partial/layout
-
-block site_title
-    != page.title + " · " + config.title
-
-block description
-    - desc = page.desc || page.title + ' - ' + config.author;
-    meta(name="description", content=desc)
-
-block container
-    include mixins/post
-    +post(page)
-    .sidebar
-      .featureblock
-        .feature Feature
-        a.archivefeature(href='/blog/archives/')
-
-          span Archive
-        br
-        if page.title != "Tag Cloud"
-          a.tagfeature(href='/blog/tags')
-
-            span Tags
-        else
-          a.tagfeature.active(href='/blog/tags')
-
-            span Tags
-        br
-        a.rssfeature(href='/blog/atom.xml')
-          
-          span RSS
-
-
-block pagination
-    .postpage
-      include mixins/paginator
-      +post()
-    .commentblock
-      include partial/comment
-
-block copyright
-    include partial/copyright
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>写： 放大 (三) · Martin's Blog</title><meta name="description" content="写： 放大 (三) - MartinRGB"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="http://7xqdw6.com1.z0.glb.clouddn.com/fav.ico"><link rel="stylesheet" href="/blog/css/apollo.css"></head><body><header><a class="logo-link" href="/blog/"><img src="http://7xqdw6.com1.z0.glb.clouddn.com/Logo.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a class="nav-list-link" href="//www.martinrgb.com/index.html" target="_self">Work</a></li><li class="nav-list-item"><a class="nav-list-link" href="//www.martinrgb.com/about.html" target="_self">About</a></li><li class="nav-list-item"><a class="nav-list-link" href="//www.martinrgb.com/blog/index.html" target="_self">Blog</a></li><li class="nav-list-item"><a class="nav-list-link" href="//www.martinrgb.com/contact.html" target="_self">Contact</a></li></ul><a class="hamburger-icon"><div class="line-1"></div><div class="line-2"></div><div class="line-3"></div></a><div class="nav-container-inner"></div><div class="divider2"></div><ul class="main-nav"><li class="main-nav-list-item"><a class="main-nav-list-link" href="http://www.martinrgb.com/index.html">Work</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="http://www.martinrgb.com/about.html">About</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/blog">Blog</a><ul class="main-nav-list-child"><div class="blogcontainer"><a class="main-nav-list-link" href="/blog/archives">Archives</a></div></ul><ul class="main-nav-list-child"><div class="blogcontainer"><a class="main-nav-list-link" href="/blog/tags/">Tags</a></div></ul><ul class="main-nav-list-child"><div class="blogcontainer"><a class="main-nav-list-link" href="/blog/atom.xml">RSS</a></div></ul></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="http://www.martinrgb.com/contact.html">Contact</a></li></ul></header><div class="divider"></div><section class="container"><div class="post"><div class="postdivide"><article class="post-block"><h1 class="post-title">写： 放大 (三)</h1><div class="post-meta"><div class="post-time">Jan 31, 2016</div></div><div class="post-content"><p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/blowup3.jpg" alt="Blow Up"></p>
+<blockquote>
+<p>观看 《放大》 后撰写的短篇小说之结尾篇</p>
+</blockquote>
+<a id="more"></a>
+<p>“这就是你经常做的梦？”他在椅子上坐了一会，悠闲的转了一圈，等他转回来的时候，那具有侵略性的鼻梁和雄鹰一样的眼睛又出现在我的面前。“也就是说，最近你反复做同样的两个有关的梦，第一个是一个偷窥狂每天偷窥你，他精神狂乱、时间感受出了差错，在梦里把你杀掉后又自杀，死了都忘不了变成鬼魂再偷窥你；第二个梦是另外一个人也是偷窥狂，住第一个人楼上，看到第一个人把你杀掉的全过程，他惶惶不可终日，最后还是被第一个人杀掉的梦？”</p>
+<p>他发表完这通长篇大论后自己也觉得有些不可思议，尽管他知道那是个梦，复杂的逻辑不免让他陷入沉思中，他点燃了一根烟，闷头抽了一会儿，缓缓说道“小姐，你不介意我把这个梦写成书面格式分析一下吧？”</p>
+<p>“好的，没问题，虽然我不是很懂精神分析，但希望你能尽快找到让我正常睡眠的办法。”</p>
+<p>我在他办公室坐了一会，便回去了，晚上，我的梦里面出现了一朵蓝色的花，不知道象征着什么。</p>
+<p>这个精神案例真的非常有趣，好久没有这种让人感到兴奋的患者了。整天无非就那么几种：上班族压力太大，对重复的生活没有目标；感情问题，又分那么几种：出轨伤害、家庭暴力、关系冷处理；还有怪癖，什么偏执狂、强迫症、洁癖、喜欢收集旧轮胎然后炸爆、动物伤害。</p>
+<p>要我说，能活下去就不错了，哪来那么多臭毛病。首先要记住的，你紧紧是个动物，不过比较高级而已。本能只有性、杀戮、生存。</p>
+<p>我喝了两杯，感觉情绪有些放大。拉开了百叶窗，看看这座城市。昏黄的灯火像是都市的淡妆，不同的人看到了不同的印象。对于情圣，这种颜色是暧昧；对于穷鬼，这种颜色是凄惨；对于我，昏黄灯光下的车辆川流熙攘，流动的是欲望之光，罪恶，深深的扼住了这片土地。</p>
+<p>我看了看表，十一点半，时间差不多了，打开抽屉，带上我那副手套，拎上我的公事包，穿上那件黑色的风衣，看起来像是个深夜下班的上班族，我对自己的形象很满意，我出门了。</p>
+<p>我在楼下的广场抽了根烟，决定今天去第54街，肮脏下流的街道从道路上就能看出来。各种丢弃的食物在午夜的滋润下腐烂蔓延。粉红色的霓虹灯，让人作呕的女性穿着露趾的凉鞋，露出内裤的短裙。看着她白色妆容上鲜红的嘴唇，我来了兴趣。</p>
+<p>“800，过夜怎么样”我慢慢的欣赏着她那丰满的身材。</p>
+<p>她妩媚的看我一眼，同意了。</p>
+<p>我说我家就在附近，咱们走回去吧。</p>
+<p>她似乎没有多想，因为我穿的实在是像个金融部门习惯吆喝别人的经理，偶尔来寻找刺激的那种的正派人。   不，今天晚上不能那么玩，老那样太没意思了，我觉得还是叫辆出租回去，我打辆车，回到我的办公室。在路上她给我口交，我理都没理她，继续欣赏这座城市，这文明之渊。</p>
+<p>我掏出钥匙，打开了办公室的门，她那劣质的香水味儿真令人难以忍受。我没说什么，继续走到我那狭小而又“广阔”的储藏室，打开了门，笑眯眯的对她说“进来吧”</p>
+<p>等她进去，她才意识到这是什么，我看着她那害怕到扭曲的表情，没给她叫的机会，一个手刀击中她的后脑勺，她晕了过去。</p>
+<p>从生理构造上讲，女人没什么不同。无非是各种器官的排列组合与生长度不同，然后制订一个美的标准加以判断。这与我没什么关系，我只关心她们的反应。</p>
+<p>我把那个椅子搬了出来，把那头人扶上椅子，把扎带系好，都市人真的是越来越重了，我记得5年前把人困在椅子上没那么费劲。</p>
+<p>我找出来三脚架和摄像机 ，调节了一下，差不多了。</p>
+<p>射钉枪、电锯、锤子、弓锯、手术刀、剪刀、螺丝刀、圆锯，应有尽有，我有条不紊的一样又一样把工具摆放在操作台上。我这里没有枪，玩枪的都是一群蠢货，撞针随便撞一下底火搞不好游戏者就没了。我要慢慢的吃掉他们，一点一点的吞噬他们的灵魂。什么德州电锯杀人狂、电锯惊魂、射钉枪大屠杀一点都不好看，当你自己动手才知道这跟电影完全不一样，当你的工具把“他们”那种痛苦的抽搐和扭曲的感觉传递到你的手上，你会发现这种感觉是如此的快意。至于魔鬼牙医？那套复杂的设备早被我扔了，真的是太麻烦了，这本应该是一件简单而又愉悦的事情。</p>
+<p>赌博是一种富有冒险精神的娱乐活动，随着这座城市大多数人对梦想妄想幻想的破灭，赌博业也日渐衰落。我觉得赌博这种东西至少再某种东西上跟我是共通的：那就是富有冒险精神。我拿出一管钢笔，一张圆纸板。</p>
+<p>我昨天重新看了一遍《猎鹿人》，转盘是极有趣的，基本上，无人生还，沃肯那傻子在别的电影里还是逃脱不了老兵的命运，不厌其烦的在“金表的故事”里面给小布鲁斯讲一遍肛门塞金表的越南故事。我在白纸正面画了十二个数字的符号，背面画上了十二种工具。别跟我提十二宫杀手，他顶多算个蹩脚的屠夫，而我？我是一个天生的艺术家，而且没准他早就被我杀了。我把这张圆板钉在了墙上。  真是工作辛苦啊看来，我浇了两盆凉水才醒，跟其他人一样，她似乎有些茫然。我狠狠的抽了她一个嘴巴。</p>
+<p>”看着我。“我装着凶狠的样子吼道。</p>
+<p>她先是愤怒，后来是环顾四周，最后眼神变得呆滞起来她，似乎被吓坏了，我满意至极。</p>
+<p>”喜欢赌博吗，小时候玩的大赢家？“我问她</p>
+<p>她点点头。我不喜欢这种不回答的态度，我又给她一个嘴巴。</p>
+<p>“给我一个数字！”我在她耳边大声的喊。</p>
+<p>“1!”她似乎也明白了自己的处境，索性豁出去了，如果是我是她，我也这么干，可是如果她知道接下来她要面对的，估计还不如保存体力算了。</p>
+<p>“这就是你想了半天给出的答案？”</p>
+<p>我很失望的走到了转盘面前，看了看一背面对应的工具。</p>
+<p>后面是一套——拔罐器。</p>
+<p>好险，差点抽中吊扇，前几天做了套机械升降装置，我迫不及待用吊扇做了个实验，效果不是那么理想，血、浆液、脏渣喷的到处都是，吊扇的马达尽管换了还是一次就报废，钢扇叶上面全是恶心人的肠汁。</p>
+<p>这下有意思了，拔罐器，透明的，我转动了一下我那复杂的大脑。我像孩子打开礼物盒一样打开了包装箱，拿出了一套罐子。</p>
+<p>有想法了，得感谢我的机械原理老师，我把罐子夹在车床上，找了一副合适的刀头，大致计算了一下，打磨了起来，连续打磨了将近十副后，我觉得差不多了。</p>
+<p>我用指尖轻轻的摸了摸罐子里面那个尖儿，出血了，看来很好用。</p>
+<p>我用剪刀把她衣服全剪碎了，她的肉体很完美，但还不够完美。我找准了血管，先把钻头扎进去，左手按的很紧，然后转动拔罐器上的把手反向转动，我看到红色溢满罐子了，看来还很好用。</p>
+<p>在她的尖叫声中我完成了我的工作。摄像机一直在记录这一切。</p>
+<p>多多少少有点血溢出，我不是很高兴。我揉了揉手，站在镜头面前，对着她说“现在我会打你一会儿，你得祈祷这些罐子装的足够结实“</p>
+<p>我戴上了手套，对准她的脸狠狠的揍着，接着踢她的大腿。不一会她全身上下都红了，可我没有停下，我感觉我血管中部分的血液在跳动又聚合。 </p>
+<p>”啪“的一声，一管罐子飞了起来，跟着莎莎的声音，一股血溅射至空气中。是手腕附近的动脉，我在她手腕上方附近做了些止血处理，然后我继续揍她，她这会已经不吭声了，估计快没知觉了。</p>
+<p>我太兴奋以致于有点累，我把所有拔罐器的气阀拔了下来，然后看到7、8个暗红色的创口上粉色的肉，“1、2、3”我数了下，血继续喷溅起来，但是由于出血点太多，喷了没几秒就停了。</p>
+<p>游戏结束，我收拾收拾东西，然后取出条水管冲洗了一下，把尸体扔进了2号冰柜。</p>
+<p>今晚做梦的时候，里面又多了一朵蓝色的美丽小花，第34朵。</p>
+<div class="widget"><div class="tags"><a class="eachtag" href="/blog/tags/文字创作/">文字创作</a><a class="eachtag" href="/blog/tags/影·音·书/">影·音·书</a></div></div></div></article></div></div><div class="sidebar"><div class="featureblock"><div class="feature">Feature</div><a class="archivefeature" href="/blog/archives/"><span>Archive</span></a><br><a class="tagfeature" href="/blog/tags"><span>Tags</span></a><br><a class="rssfeature" href="/blog/atom.xml"><span>RSS</span></a></div></div></section><footer><div class="postpage"><div class="paginator"><a class="prev" href="/blog/2016/01/31/Rat/">PREV</a><a class="next" href="/blog/2016/01/31/Blow Up II/">NEXT</a></div></div><div class="commentblock"><div id="disqus_thread"></div><script>var disqus_shortname = 'martinrgbsplayground';
+var disqus_identifier = '2016/01/31/Blow Up III/';
+var disqus_title = '写： 放大 (三)';
+var disqus_url = 'http://www.martinrgb.com/blog/2016/01/31/Blow Up III/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//#{theme.disqus}.disqus.com/count.js" async></script></div><div class="copyright"><p>Copyright © 2017 <a href="http://www.martinrgb.com/blog">MartinRGB</a></p></div></footer><script id="jQuery" src="http://7xqdw6.com1.z0.glb.clouddn.com/jquery-1.12.0.min.js"></script><script id="hamburgerjs" src="http://7xqdw6.com1.z0.glb.clouddn.com/hamburger.js"></script></body></html>
