@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://www.martinrgb.com/blog/"/>
-  <updated>2017-05-11T06:38:50.000Z</updated>
+  <updated>2017-05-11T09:51:11.000Z</updated>
   <id>http://www.martinrgb.com/blog/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.martinrgb.com/blog/2017/04/26/hello-world/"/>
-    <id>http://www.martinrgb.com/blog/2017/04/26/hello-world/</id>
-    <published>2017-04-26T10:24:23.000Z</published>
-    <updated>2017-05-11T06:38:50.000Z</updated>
+    <link href="http://www.martinrgb.com/blog/2017/05/11/hello-world/"/>
+    <id>http://www.martinrgb.com/blog/2017/05/11/hello-world/</id>
+    <published>2017-05-11T09:51:11.000Z</published>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -47,7 +47,7 @@
     <link href="http://www.martinrgb.com/blog/2016/07/12/QieDu_Design_II/"/>
     <id>http://www.martinrgb.com/blog/2016/07/12/QieDu_Design_II/</id>
     <published>2016-07-12T02:37:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qieduCover.png" alt="Cover"></p>
 <blockquote>
@@ -90,7 +90,7 @@
     <link href="http://www.martinrgb.com/blog/2016/07/10/QieDu_Design_I/"/>
     <id>http://www.martinrgb.com/blog/2016/07/10/QieDu_Design_I/</id>
     <published>2016-07-10T02:37:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/qieduCover.png" alt="Cover"></p>
 <blockquote>
@@ -130,7 +130,7 @@
     <link href="http://www.martinrgb.com/blog/2016/06/14/Google_IBM_Motion/"/>
     <id>http://www.martinrgb.com/blog/2016/06/14/Google_IBM_Motion/</id>
     <published>2016-06-14T02:37:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/MD&amp;IBM_Motion.png" alt="Cover"></p>
 <blockquote>
@@ -161,7 +161,7 @@
     <link href="http://www.martinrgb.com/blog/2016/02/08/NewYearSea/"/>
     <id>http://www.martinrgb.com/blog/2016/02/08/NewYearSea/</id>
     <published>2016-02-08T13:25:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/Newyear6.jpg" alt="Sea1"></p>
 <blockquote>
@@ -196,7 +196,7 @@
     <link href="http://www.martinrgb.com/blog/2016/01/31/Of%20Human%20Bondage/"/>
     <id>http://www.martinrgb.com/blog/2016/01/31/Of Human Bondage/</id>
     <published>2016-01-31T15:52:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/maxresdefault.jpg" alt="Invisible City"></p>
 <blockquote>
@@ -232,7 +232,7 @@
     <link href="http://www.martinrgb.com/blog/2016/01/31/Invisible%20City/"/>
     <id>http://www.martinrgb.com/blog/2016/01/31/Invisible City/</id>
     <published>2016-01-31T15:51:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/Invisible%20City%20.jpg" alt="Invisible City"></p>
 <blockquote>
@@ -287,7 +287,7 @@
     <link href="http://www.martinrgb.com/blog/2016/01/31/Galaxy/"/>
     <id>http://www.martinrgb.com/blog/2016/01/31/Galaxy/</id>
     <published>2016-01-31T15:50:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/galaxy.jpeg" alt="Galaxy"></p>
 <blockquote>
@@ -328,7 +328,7 @@
     <link href="http://www.martinrgb.com/blog/2016/01/31/Gardener/"/>
     <id>http://www.martinrgb.com/blog/2016/01/31/Gardener/</id>
     <published>2016-01-31T15:49:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/garden.jpeg" alt="Garden"></p>
 <blockquote>
@@ -368,7 +368,7 @@
     <link href="http://www.martinrgb.com/blog/2016/01/31/Rat/"/>
     <id>http://www.martinrgb.com/blog/2016/01/31/Rat/</id>
     <published>2016-01-31T15:48:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/rat.jpeg" alt="Rat"></p>
 <blockquote>
@@ -401,7 +401,7 @@
     <link href="http://www.martinrgb.com/blog/2016/01/31/Blow%20Up%20III/"/>
     <id>http://www.martinrgb.com/blog/2016/01/31/Blow Up III/</id>
     <published>2016-01-31T15:47:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/blowup3.jpg" alt="Blow Up"></p>
 <blockquote>
@@ -473,7 +473,7 @@
     <link href="http://www.martinrgb.com/blog/2016/01/31/Blow%20Up%20II/"/>
     <id>http://www.martinrgb.com/blog/2016/01/31/Blow Up II/</id>
     <published>2016-01-31T15:46:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/blowup2.jpg" alt="Blow Up"></p>
 <blockquote>
@@ -546,7 +546,7 @@
     <link href="http://www.martinrgb.com/blog/2016/01/31/Blow%20Up%20I/"/>
     <id>http://www.martinrgb.com/blog/2016/01/31/Blow Up I/</id>
     <published>2016-01-31T14:46:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/blowup1.jpeg" alt="Blow Up"></p>
 <blockquote>
@@ -607,7 +607,7 @@
     <link href="http://www.martinrgb.com/blog/2016/01/31/Lung%20Collapsing%20Lyrics/"/>
     <id>http://www.martinrgb.com/blog/2016/01/31/Lung Collapsing Lyrics/</id>
     <published>2016-01-31T13:46:25.000Z</published>
-    <updated>2017-04-26T10:24:23.000Z</updated>
+    <updated>2017-05-11T09:51:11.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xqdw6.com1.z0.glb.clouddn.com/Lung%20Coallapsing.png" alt="Lung Coallpsing"></p>
 <p><a href="http://music.douban.com/subject/2255423/" target="_blank" rel="external">「专辑链接」</a></p>

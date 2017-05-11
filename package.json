@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "martin",
   "version": "0.0.0",
   "private": true,
   "hexo": {
@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "hexo": "^3.3.5",
+    "hexo-cli": "^1.0.2",
     "hexo-browsersync": "^0.2.0",
     "hexo-deployer-git": "^0.3.0",
     "hexo-generator-archive": "^0.1.4",
