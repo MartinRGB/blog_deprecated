@@ -1,0 +1,54 @@
+doctype
+html(lang=config.language)
+  head
+      include head.pug
+      include scripts.pug
+      script.
+        var something = function() {
+            //- console.log('something')
+            $('a.hamburger-icon').toggleClass('active');
+            $('.nav-container-inner').slideToggle();
+            $('.container').toggleClass('active');
+            $('.divider').toggleClass('active');
+            $('.divider2').toggleClass('active');
+        }
+  body
+      .mContainer
+        header
+            a.logo-link(href=('http://www.martinrgb.com/index.html'))
+                p MartinRGB
+                //- img(src=theme.logo)
+            //- include nav.pug
+            a.hamburger-icon(onclick='something()')
+                .line-1
+                .line-2
+                .line-3
+                
+            .navcontainer
+                a.timelinefeature(href=url_for())
+                    span Timeline
+                a.archivefeature(href='/blog/archives/')
+                    span Archive
+                a.tagfeature(href='/blog/tags')
+                    span Tags
+                a.rssfeature(href='/blog/atom.xml')
+                    span RSS
+        
+        .divider
+    
+        section.container
+            .nav-container-inner
+                    ul.main-nav
+                        li.main-nav-list-item
+                            a.main-nav-list-link(href=url_for()) Timeline
+                        li.main-nav-list-item
+                            a.main-nav-list-link(href=('/blog/archives/')) Archive
+                        li.main-nav-list-item
+                            a.main-nav-list-link(href=('/blog/tags')) Tags
+                        li.main-nav-list-lastitem 
+                            a.main-nav-list-link(style="border-bottom:none;" href=('/blog/atom.xml')) RSS
+                        .divider2
+            block container
+        footer
+            block pagination
+            block copyright

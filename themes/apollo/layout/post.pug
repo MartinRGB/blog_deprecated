@@ -1,0 +1,66 @@
+extends partial/layout
+
+block site_title
+    != page.title + " · " + config.title
+
+block description
+    - desc = page.desc || page.title + ' - ' + config.author;
+    meta(name="description", content=desc)
+
+block container
+    .post
+          .postdivide
+            article.post-block
+                h1.post-title
+                    != page.title
+                .post-meta
+                        .post-time
+                            != full_date(page.date, 'll')
+                .post-content
+                    != page.content
+                    if page.title != "Tag Cloud"
+                      .widget
+                        if page.tags
+                          .tags
+                            for tag in page.tags.toArray()
+                              a.eachtag(href=url_for(tag.path))= tag.name
+                    else
+                      .widget
+                        .tagcloud
+                          != tagcloud({min_font: 18, max_font:24 , amount: 100, orderby: 'count'})
+    //- .sidebar
+    //-     .featureblock
+    //-         .feature Feature
+    //-         a.archivefeature(href='/blog/archives/')
+
+    //-             span Archive
+    //-         br
+            
+    //-         if page.title != "Tag Cloud"
+    //-             a.tagfeature(href='/blog/tags')
+
+    //-                 span Tags
+    //-         else
+    //-             a.tagfeature.active(href='/blog/tags')
+
+    //-                 span Tags
+    //-         br
+    //-         a.rssfeature(href='/blog/atom.xml')
+              
+    //-             span RSS
+
+
+block pagination
+    .postpage
+        - var prev = page.prev ? page.prev.path : false;
+            - var next = page.next ? page.next.path : false;
+            .paginator
+                if prev
+                    a.prev(href=url_for(prev))!= __('prev_post')
+                if next
+                    a.next(href=url_for(next))!= __('next_post')
+    .commentblock
+        include partial/comment.pug
+
+block copyright
+    include partial/copyright.pug

@@ -1,0 +1,22 @@
+mixin home()
+    - var prev = page.prev_link
+    - var next = page.next_link
+    .paginator
+        if page.prev == 1
+            if page.tag
+                a.prev(href='/blog/tags/'+page.tag)!= __('prev')
+            else
+                a.prev(href='/blog/archives')!= __('prev')
+        if page.prev > 1
+            a.prev(href=url_for(prev))!= __('prev')
+        if page.next
+            a.next(href=url_for(next))!= __('next')
+
+mixin post()
+    - var prev = page.prev ? page.prev.path : false;
+    - var next = page.next ? page.next.path : false;
+    .paginator
+        if prev
+            a.prev(href=url_for(prev))!= __('prev_post')
+        if next
+            a.next(href=url_for(next))!= __('next_post')

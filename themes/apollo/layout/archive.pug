@@ -1,0 +1,61 @@
+extends partial/layout
+
+block container
+    ul.archive.post-list
+        if page.tag || page.category
+            .label-title=  __('reading_label', page.tag || page.category)
+        - page.posts.each(function(item) {
+            li.post-list-item
+                article.post-block
+                    h2.post-title
+                        a.post-title-link(href= url_for(item.path))
+                            != item.title
+                    .post-meta
+                            .post-time
+                                != full_date(item.date, 'll')
+
+        - })
+    //- .sidebarbig
+    //-     .featureblock
+    //-         .feature Feature
+    //-         if page.tag || page.category
+    //-             a.archivefeature(href='/blog/archives/')
+
+    //-                 span Archive
+    //-             br
+    //-             a.tagfeature.active(href='/blog/tags')
+
+    //-                 span Tags
+    //-             br
+    //-             a.rssfeature(href='/blog/atom.xml')
+              
+    //-                 span RSS
+    //-         else
+    //-             a.selectarchivefeature(href='/blog/archives/')
+
+    //-                 span Archive
+    //-             br
+    //-             a.tagfeature(href='/blog/tags')
+
+    //-                 span Tags
+    //-             br
+    //-             a.rssfeature(href='/blog/atom.xml')
+              
+    //-                 span RSS
+
+block pagination
+    - var prev = page.prev_link
+    - var next = page.next_link
+    .paginator
+        if page.prev == 1
+            if page.tag
+                a.prev(href='/blog/tags/'+page.tag)!= __('prev')
+            else
+                a.prev(href='/blog/archives')!= __('prev')
+        if page.prev > 1
+            a.prev(href=url_for(prev))!= __('prev')
+        if page.next
+            a.next(href=url_for(next))!= __('next')
+
+block copyright
+    include partial/copyright.pug

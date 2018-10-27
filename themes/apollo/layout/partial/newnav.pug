@@ -1,0 +1,9 @@
+mixin item(title, url)
+  li
+    a(href=url, class=active == title ? 'active' : '')= title
+
+ul#menu
+  +item('Timeline', url_for())
+  +item('Archive', '/blog/archives/')
+  +item('Tags', '/blog/tags')
+  +item('RSS', '/blog/atom.xml')

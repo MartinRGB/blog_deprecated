@@ -1,0 +1,22 @@
+menu:
+    Work: //www.martinrgb.com/index.html
+    About: //www.martinrgb.com/about.html
+    Blog: //www.martinrgb.com/blog/index.html
+    Resume: http://7xqdw6.com1.z0.glb.clouddn.com/Martin%27s%20Resume.zip
+    Contact: //www.martinrgb.com/contact.html
+
+feature:
+    rss: /atom.xml
+    archive: /archives/
+    tags: /tags/
+
+favicon: http://7xqdw6.com1.z0.glb.clouddn.com/fav.ico
+logo: http://7xqdw6.com1.z0.glb.clouddn.com/newlogo-black.png
+
+# Comment
+# e.g disqus: seansun
+disqus: martinrgbsplayground
+duoshuo: 
+
+# Copyright Infomation
+startyear: 2017
