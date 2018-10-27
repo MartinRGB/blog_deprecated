@@ -6,7 +6,6 @@ tags:
 - 影·音·书
 date: "2016/1/31 21:46:25"
 ---
-![Lung Coallpsing](http://7xqdw6.com1.z0.glb.clouddn.com/Lung%20Coallapsing.png)
 
 [「专辑链接」](http://music.douban.com/subject/2255423/)
 

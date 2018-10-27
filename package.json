@@ -2,6 +2,10 @@
   "name": "martin",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "server" :"hexo clean;hexo generate;hexo server",
+    "deploy":"hexo clean;hexo generate;hexo deploy"
+  },
   "hexo": {
     "version": "3.8.0"
   },

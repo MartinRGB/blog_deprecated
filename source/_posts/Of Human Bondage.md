@@ -6,7 +6,7 @@ tags:
 date: "2016/1/31 23:52:25"
 ---
 
-![Invisible City](http://7xqdw6.com1.z0.glb.clouddn.com/maxresdefault.jpg)
+<!-- ![Invisible City](http://7xqdw6.com1.z0.glb.clouddn.com/maxresdefault.jpg) -->
 
 > 毛姆之《人生的枷锁》， 嘲讽那些沉浸在书中的迂腐的理想主义知识分子。
 

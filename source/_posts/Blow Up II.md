@@ -7,7 +7,7 @@ tags:
 date: "2016/1/31 23:46:25"
 ---
 
-![Blow Up](http://7xqdw6.com1.z0.glb.clouddn.com/blowup2.jpg)
+<!-- ![Blow Up](http://7xqdw6.com1.z0.glb.clouddn.com/blowup2.jpg) -->
 
 >观看 《放大》 后撰写的短篇小说之二
 

@@ -7,7 +7,7 @@ tags:
 date: "2016/1/31 23:48:25"
 ---
 
-![Rat](http://7xqdw6.com1.z0.glb.clouddn.com/rat.jpeg)
+<!-- ![Rat](http://7xqdw6.com1.z0.glb.clouddn.com/rat.jpeg) -->
 
 > 翻译自 David Mitchell 的 "The Massive Rat" 
 

@@ -7,7 +7,7 @@ tags:
 date: "2016/1/31 23:50:25"
 ---
 
-![Galaxy](http://7xqdw6.com1.z0.glb.clouddn.com/galaxy.jpeg)
+<!-- ![Galaxy](http://7xqdw6.com1.z0.glb.clouddn.com/galaxy.jpeg) -->
 
 > 翻译自 Aliette de Bodard 的 "Scattered Along the River of Heaven" 
 

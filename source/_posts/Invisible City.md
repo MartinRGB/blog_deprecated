@@ -6,7 +6,7 @@ tags:
 date: "2016/1/31 23:51:25"
 ---
 
-![Invisible City](http://7xqdw6.com1.z0.glb.clouddn.com/Invisible%20City%20.jpg)
+<!-- ![Invisible City](http://7xqdw6.com1.z0.glb.clouddn.com/Invisible%20City%20.jpg) -->
 
 > 卡尔维诺之《看不见的城市》， 感受作者的浪漫与想象力。
 
@@ -20,7 +20,7 @@ date: "2016/1/31 23:51:25"
 我想：“到了生命的某一个时刻，在你认识的人之中，已去世的会比活着的多。这时你的心就会拒绝接受更多的面孔和更多的表情，你遇见的每一张新面子都是旧的容貌，它们各自寻得合适的面具。” 
 
 
-![Le città invisibili](http://7xqdw6.com1.z0.glb.clouddn.com/Le%20citta%CC%80%20invisibili.jpg)
+<!-- ![Le città invisibili](http://7xqdw6.com1.z0.glb.clouddn.com/Le%20citta%CC%80%20invisibili.jpg) -->
 ## 城市和天空之二 
 
 琵尔希巴有一个代代相传的信念：城的最高尚的美德和感情，都维系在半空中的另一个琵尔希巴里，假如地上的琵尔希巴追随天上的城的榜样，两个城便会合而为一。根据一贯的传说，那是一个纯金制的宝城，有白银锁和金刚石门，一切都是精工镶嵌的，因为使用最贵重的材料必须依赖最细致的技巧。琵尔希巴的居民诚心诚意相信传说，他们尊敬一切可能跟天上城有关的东西：他们储存贵金属和稀有的石头，他们鄙弃一切世俗的繁缛，他们养成了含蓄的仪态。 

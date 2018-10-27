@@ -59,8 +59,9 @@ block pagination
                     a.prev(href=url_for(prev))!= __('prev_post')
                 if next
                     a.next(href=url_for(next))!= __('next_post')
-    .commentblock
-        include partial/comment.pug
+
+    //- .commentblock
+    //-     include partial/comment.pug
 
 block copyright
     include partial/copyright.pug

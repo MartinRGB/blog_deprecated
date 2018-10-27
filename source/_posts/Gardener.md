@@ -7,7 +7,7 @@ tags:
 date: "2016/1/31 23:49:25"
 ---
 
-![Garden](http://7xqdw6.com1.z0.glb.clouddn.com/garden.jpeg)
+<!-- ![Garden](http://7xqdw6.com1.z0.glb.clouddn.com/garden.jpeg) -->
 
 > 翻译自 David Mitchell 的 "The Gardener" 
 

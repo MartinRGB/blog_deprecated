@@ -7,7 +7,7 @@ tags:
 date: "2016/1/31 22:46:25"
 ---
 
-![Blow Up](http://7xqdw6.com1.z0.glb.clouddn.com/blowup1.jpeg)
+<!-- ![Blow Up](http://7xqdw6.com1.z0.glb.clouddn.com/blowup1.jpeg) -->
 
 >观看 《放大》 后撰写的短篇小说一则
 
@@ -52,7 +52,7 @@ date: "2016/1/31 22:46:25"
 
 我突然明白了什么，身体缕缕的化为白烟，消失在空气中。
 
-## 分享：Blow Up 相关作品展( via Behance ["Come as You are"](https://www.behance.net/gallery/So-Popular-Come-as-You-are-2010/684118) )
+<!-- ## 分享：Blow Up 相关作品展( via Behance ["Come as You are"](https://www.behance.net/gallery/So-Popular-Come-as-You-are-2010/684118) )
 
 ![1](http://7xqdw6.com1.z0.glb.clouddn.com/blowup.jpg)
 
@@ -78,4 +78,4 @@ date: "2016/1/31 22:46:25"
 
 ![12](http://7xqdw6.com1.z0.glb.clouddn.com/blowup12.jpg)
 
-![13](http://7xqdw6.com1.z0.glb.clouddn.com/blowup13.jpg)
+![13](http://7xqdw6.com1.z0.glb.clouddn.com/blowup13.jpg) -->
